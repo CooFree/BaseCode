@@ -8,8 +8,19 @@
 
 #import "NSString+Addition.h"
 
+#define kScreenWidth  [[UIScreen mainScreen] bounds].size.width
+#define kLeftMargin 15
+
 @implementation NSString (Addition)
  
+// 时间戳转时间
+- (NSString *)datestrFromDate:(NSDate *)date
+               withDateFormat:(NSString *)format {
+    
+    NSDateFormatter* dateFormat = [[NSDateFormatter alloc] init];
+    [dateFormat setDateFormat:format];
+    return [dateFormat stringFromDate:date];
+}
 
 - (NSString *)convertTimesTampWithDateFormat:(NSString *)dateFormat {
     //    @"yyyy-MM-dd HH:mm"
@@ -18,7 +29,7 @@
     }
     NSTimeInterval timeInterval = [self doubleValue];
     NSDate *date = [NSDate dateWithTimeIntervalSince1970:timeInterval];
-    NSString *timeStr = [NHUtils datestrFromDate:date withDateFormat:dateFormat];
+    NSString *timeStr = [self datestrFromDate:date withDateFormat:dateFormat];
     return timeStr;
 }
 
