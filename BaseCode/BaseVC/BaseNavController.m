@@ -23,7 +23,7 @@
 //    [navBar setBackgroundImage:[UIImage imageNamed:@"navBg"] forBarMetrics:UIBarMetricsDefault];
     
     NSDictionary *dict = @{
-                           NSForegroundColorAttributeName : [UIColor whiteColor],
+                           NSForegroundColorAttributeName : [UIColor blackColor],
                            NSFontAttributeName : [UIFont systemFontOfSize:20]
                            };
     navBar.tintColor = [UIColor blueColor];

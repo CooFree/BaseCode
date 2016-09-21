@@ -19,20 +19,12 @@
 @end
 
 
-
 @implementation BaseTabBar
 
 - (instancetype)initWithFrame:(CGRect)frame
 {
     if (self=[super initWithFrame:frame]) {
-        //        ----runtime - test----
-        
-        //        unsigned int count = 0;
-        //        Ivar *ivarList = class_copyIvarList([UITabBar class], &count);
-        //        for (int i =0; i<count; i++) {
-        //            Ivar ivar = ivarList[i];
-        //            LBLog(@"%s",ivar_getName(ivar));
-        //        }
+
         
         //[self setBackgroundImage:[UIImage imageWithColor:[UIColor clearColor]]];
         
@@ -40,10 +32,8 @@
         [self setShadowImage:[UIImage imageWithColor:[UIColor clearColor]]];
         
         UIButton *plusBtn = [[UIButton alloc] init];
-        [plusBtn setBackgroundImage:[UIImage imageNamed:@"post_normal"] forState:UIControlStateNormal];
-        [plusBtn setBackgroundImage:[UIImage imageNamed:@"post_normal"] forState:UIControlStateHighlighted];
-        
-        //        plusBtn.frame=CGRectMake(self.frame.size.width / 5 * 2, self.bounds.size.height - 55-20, self.frame.size.width / 5, 55);
+        [plusBtn setImage:[UIImage imageNamed:@"post_normal"] forState:UIControlStateNormal];
+        [plusBtn setImage:[UIImage imageNamed:@"post_normal"] forState:UIControlStateHighlighted];
         
         self.plusBtn = plusBtn;
         
@@ -54,6 +44,7 @@
         
         UILabel *label = [[UILabel alloc] init];
         label.text = @"发布";
+        label.textAlignment=NSTextAlignmentCenter;
         label.font = [UIFont systemFontOfSize:11];
         [label sizeToFit];
         label.textColor = [UIColor grayColor];
@@ -68,6 +59,8 @@
 {
     [super layoutSubviews];
     _plusBtn.frame=CGRectMake(self.frame.size.width / 5 * 2, self.bounds.size.height - 55-20, self.frame.size.width / 5, 55);
+    _plusLabel.frame=CGRectMake(self.frame.size.width / 5 * 2, CGRectGetMaxY(_plusBtn.frame), self.frame.size.width / 5, 23);
+
 }
 
 

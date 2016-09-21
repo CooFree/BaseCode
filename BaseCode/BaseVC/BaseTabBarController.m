@@ -59,17 +59,21 @@
                            @"ViewController5",
                            ];
     
-    NSArray *image = @[@"home_normal",@"fish_normal",@"",@"message_normal",@"account_normal"];
+    NSArray *image = @[@"home_normal",@"fish_normal",@"messae_normal",@"message_normal",@"account_normal"];
     NSArray *selectedImage=@[@"home_highlight",@"fish_highlight",@"",@"message_highlight",@"account_highlight"];
-    
+    NSArray *title=@[@"首页",@"发现",@"发布",@"消息",@"个人中心"];
+
     for (NSString *className  in childName) {
         
         UIViewController *vc = [[NSClassFromString(className) alloc] init];
         
         BaseNavController *nabBar = [[BaseNavController alloc] initWithRootViewController:vc];
-        vc.navigationItem.title = className;
-        vc.tabBarItem.title = className;
+       
         NSInteger i=[childName indexOfObject:className];
+        
+        vc.navigationItem.title = title[i];
+        vc.tabBarItem.title = title[i];
+        
         UIImage *myImage = [UIImage imageNamed:image[i]];
         myImage = [myImage imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
         
