@@ -185,7 +185,7 @@
 		9683855E1D92651300ED04F7 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		9683855F1D92670E00ED04F7 /* DSGlobal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSGlobal.h; sourceTree = "<group>"; };
 		968385601D92683F00ED04F7 /* LRMacroDefinitionHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRMacroDefinitionHeader.h; sourceTree = "<group>"; };
-		968385631D9289D000ED04F7 /* 2016-09-21.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "2016-09-21.gif"; sourceTree = "<group>"; };
+		968385631D9289D000ED04F7 /* 2016-09-21.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = "2016-09-21.gif"; path = "../../2016-09-21.gif"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -216,11 +216,11 @@
 		968384811D91360200ED04F7 = {
 			isa = PBXGroup;
 			children = (
+				968385651D928BEC00ED04F7 /* screenshots */,
 				9683848C1D91360200ED04F7 /* BaseCode */,
 				968384A61D91360300ED04F7 /* BaseCodeTests */,
 				968384B11D91360300ED04F7 /* BaseCodeUITests */,
 				9683848B1D91360200ED04F7 /* Products */,
-				968385631D9289D000ED04F7 /* 2016-09-21.gif */,
 			);
 			sourceTree = "<group>";
 		};
@@ -442,6 +442,15 @@
 				968385591D9260C500ED04F7 /* Localizable.strings */,
 			);
 			path = Localizable;
+			sourceTree = "<group>";
+		};
+		968385651D928BEC00ED04F7 /* screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				968385631D9289D000ED04F7 /* 2016-09-21.gif */,
+			);
+			name = screenshots;
+			path = BaseCode/screenshots;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
