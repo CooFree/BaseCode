@@ -7,6 +7,7 @@
 //
 
 #import "ViewController2.h"
+#import "GradientProgressController.h"
 
 @interface ViewController2 ()<UITableViewDelegate,UITableViewDataSource>
 
@@ -49,8 +50,23 @@
     return cell;
 }
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
-    ViewController2 *view = [[ViewController2 alloc]init];
-    [self.navigationController pushViewController:view animated:YES];
+    
+    switch (indexPath.row) {
+        case 0:
+        {
+            GradientProgressController *view = [[GradientProgressController alloc]init];
+            [self.navigationController pushViewController:view animated:YES];
+        }
+            break;
+            
+        default:
+        {
+            ViewController2 *view = [[ViewController2 alloc]init];
+            [self.navigationController pushViewController:view animated:YES];
+        }
+            break;
+    }
+
 }
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

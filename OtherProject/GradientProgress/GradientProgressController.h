@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "BaseViewController.h"
 
-@interface GradientProgressController : UIViewController
+@interface GradientProgressController : BaseViewController
 
 
 @end
