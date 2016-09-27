@@ -85,6 +85,16 @@
 		968385FC1D92A55000ED04F7 /* LeftSlideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 968385F71D92A55000ED04F7 /* LeftSlideViewController.m */; };
 		968386031D92A84000ED04F7 /* GradientProgressController.m in Sources */ = {isa = PBXBuildFile; fileRef = 968386001D92A84000ED04F7 /* GradientProgressController.m */; };
 		968386041D92A84000ED04F7 /* WGradientProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = 968386021D92A84000ED04F7 /* WGradientProgress.m */; };
+		96D072B41D9A146F0064F92E /* GradientProgressController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96D072AA1D9A146F0064F92E /* GradientProgressController.m */; };
+		96D072B51D9A146F0064F92E /* WGradientProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = 96D072AC1D9A146F0064F92E /* WGradientProgress.m */; };
+		96D072B61D9A146F0064F92E /* WJTouchID.m in Sources */ = {isa = PBXBuildFile; fileRef = 96D072B01D9A146F0064F92E /* WJTouchID.m */; };
+		96D072B71D9A146F0064F92E /* WJViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96D072B21D9A146F0064F92E /* WJViewController.m */; };
+		96D072BB1D9A14D20064F92E /* HJCActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 96D072BA1D9A14D20064F92E /* HJCActionSheet.m */; };
+		96D072C11D9A188C0064F92E /* UIScrollView+PDFooterRefreshView.m in Sources */ = {isa = PBXBuildFile; fileRef = 96D072BE1D9A188C0064F92E /* UIScrollView+PDFooterRefreshView.m */; };
+		96D072C21D9A188C0064F92E /* UIScrollView+PDHeaderRefreshView.m in Sources */ = {isa = PBXBuildFile; fileRef = 96D072C01D9A188C0064F92E /* UIScrollView+PDHeaderRefreshView.m */; };
+		96D072C61D9A1B220064F92E /* FDAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 96D072C51D9A1B220064F92E /* FDAlertView.m */; };
+		96D072CA1D9A1B650064F92E /* ContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 96D072C81D9A1B650064F92E /* ContentView.m */; };
+		96D072CB1D9A1B650064F92E /* ContentView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96D072C91D9A1B650064F92E /* ContentView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -267,6 +277,26 @@
 		968386001D92A84000ED04F7 /* GradientProgressController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GradientProgressController.m; sourceTree = "<group>"; };
 		968386011D92A84000ED04F7 /* WGradientProgress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGradientProgress.h; sourceTree = "<group>"; };
 		968386021D92A84000ED04F7 /* WGradientProgress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WGradientProgress.m; sourceTree = "<group>"; };
+		96D072A91D9A146F0064F92E /* GradientProgressController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GradientProgressController.h; sourceTree = "<group>"; };
+		96D072AA1D9A146F0064F92E /* GradientProgressController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GradientProgressController.m; sourceTree = "<group>"; };
+		96D072AB1D9A146F0064F92E /* WGradientProgress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGradientProgress.h; sourceTree = "<group>"; };
+		96D072AC1D9A146F0064F92E /* WGradientProgress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WGradientProgress.m; sourceTree = "<group>"; };
+		96D072AF1D9A146F0064F92E /* WJTouchID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJTouchID.h; sourceTree = "<group>"; };
+		96D072B01D9A146F0064F92E /* WJTouchID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJTouchID.m; sourceTree = "<group>"; };
+		96D072B11D9A146F0064F92E /* WJViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJViewController.h; sourceTree = "<group>"; };
+		96D072B21D9A146F0064F92E /* WJViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJViewController.m; sourceTree = "<group>"; };
+		96D072B91D9A14D20064F92E /* HJCActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJCActionSheet.h; sourceTree = "<group>"; };
+		96D072BA1D9A14D20064F92E /* HJCActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJCActionSheet.m; sourceTree = "<group>"; };
+		96D072BC1D9A188C0064F92E /* PDPullToRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDPullToRefresh.h; sourceTree = "<group>"; };
+		96D072BD1D9A188C0064F92E /* UIScrollView+PDFooterRefreshView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+PDFooterRefreshView.h"; sourceTree = "<group>"; };
+		96D072BE1D9A188C0064F92E /* UIScrollView+PDFooterRefreshView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+PDFooterRefreshView.m"; sourceTree = "<group>"; };
+		96D072BF1D9A188C0064F92E /* UIScrollView+PDHeaderRefreshView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+PDHeaderRefreshView.h"; sourceTree = "<group>"; };
+		96D072C01D9A188C0064F92E /* UIScrollView+PDHeaderRefreshView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+PDHeaderRefreshView.m"; sourceTree = "<group>"; };
+		96D072C41D9A1B220064F92E /* FDAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDAlertView.h; sourceTree = "<group>"; };
+		96D072C51D9A1B220064F92E /* FDAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDAlertView.m; sourceTree = "<group>"; };
+		96D072C71D9A1B650064F92E /* ContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContentView.h; sourceTree = "<group>"; };
+		96D072C81D9A1B650064F92E /* ContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContentView.m; sourceTree = "<group>"; };
+		96D072C91D9A1B650064F92E /* ContentView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ContentView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -330,6 +360,9 @@
 				968384D31D913AE900ED04F7 /* Category */,
 				968384931D91360200ED04F7 /* ViewController.h */,
 				968384941D91360200ED04F7 /* ViewController.m */,
+				96D072C71D9A1B650064F92E /* ContentView.h */,
+				96D072C81D9A1B650064F92E /* ContentView.m */,
+				96D072C91D9A1B650064F92E /* ContentView.xib */,
 				968385241D91435100ED04F7 /* MJExtension */,
 				968384FB1D9142E000ED04F7 /* Masonry */,
 				968384DF1D913E4600ED04F7 /* ViewController1.h */,
@@ -660,6 +693,10 @@
 		968385FD1D92A84000ED04F7 /* OtherProject */ = {
 			isa = PBXGroup;
 			children = (
+				96D072A71D9A146F0064F92E /* 文字绘写 */,
+				96D072A81D9A146F0064F92E /* GradientProgress */,
+				96D072AD1D9A146F0064F92E /* TouchID */,
+				96D072B31D9A146F0064F92E /* UIAlertView弹框 */,
 				968385FE1D92A84000ED04F7 /* GradientProgress */,
 			);
 			path = OtherProject;
@@ -674,6 +711,75 @@
 				968386021D92A84000ED04F7 /* WGradientProgress.m */,
 			);
 			path = GradientProgress;
+			sourceTree = "<group>";
+		};
+		96D072A71D9A146F0064F92E /* 文字绘写 */ = {
+			isa = PBXGroup;
+			children = (
+				96D072BC1D9A188C0064F92E /* PDPullToRefresh.h */,
+				96D072BD1D9A188C0064F92E /* UIScrollView+PDFooterRefreshView.h */,
+				96D072BE1D9A188C0064F92E /* UIScrollView+PDFooterRefreshView.m */,
+				96D072BF1D9A188C0064F92E /* UIScrollView+PDHeaderRefreshView.h */,
+				96D072C01D9A188C0064F92E /* UIScrollView+PDHeaderRefreshView.m */,
+			);
+			path = "文字绘写";
+			sourceTree = "<group>";
+		};
+		96D072A81D9A146F0064F92E /* GradientProgress */ = {
+			isa = PBXGroup;
+			children = (
+				96D072A91D9A146F0064F92E /* GradientProgressController.h */,
+				96D072AA1D9A146F0064F92E /* GradientProgressController.m */,
+				96D072AB1D9A146F0064F92E /* WGradientProgress.h */,
+				96D072AC1D9A146F0064F92E /* WGradientProgress.m */,
+			);
+			path = GradientProgress;
+			sourceTree = "<group>";
+		};
+		96D072AD1D9A146F0064F92E /* TouchID */ = {
+			isa = PBXGroup;
+			children = (
+				96D072AE1D9A146F0064F92E /* WJTouchID */,
+				96D072B11D9A146F0064F92E /* WJViewController.h */,
+				96D072B21D9A146F0064F92E /* WJViewController.m */,
+			);
+			path = TouchID;
+			sourceTree = "<group>";
+		};
+		96D072AE1D9A146F0064F92E /* WJTouchID */ = {
+			isa = PBXGroup;
+			children = (
+				96D072AF1D9A146F0064F92E /* WJTouchID.h */,
+				96D072B01D9A146F0064F92E /* WJTouchID.m */,
+			);
+			path = WJTouchID;
+			sourceTree = "<group>";
+		};
+		96D072B31D9A146F0064F92E /* UIAlertView弹框 */ = {
+			isa = PBXGroup;
+			children = (
+				96D072C31D9A1AB90064F92E /* AlertView */,
+				96D072B81D9A14C80064F92E /* ActionSheet */,
+			);
+			path = "UIAlertView弹框";
+			sourceTree = "<group>";
+		};
+		96D072B81D9A14C80064F92E /* ActionSheet */ = {
+			isa = PBXGroup;
+			children = (
+				96D072B91D9A14D20064F92E /* HJCActionSheet.h */,
+				96D072BA1D9A14D20064F92E /* HJCActionSheet.m */,
+			);
+			path = ActionSheet;
+			sourceTree = "<group>";
+		};
+		96D072C31D9A1AB90064F92E /* AlertView */ = {
+			isa = PBXGroup;
+			children = (
+				96D072C41D9A1B220064F92E /* FDAlertView.h */,
+				96D072C51D9A1B220064F92E /* FDAlertView.m */,
+			);
+			path = AlertView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -791,6 +897,7 @@
 				9683849A1D91360200ED04F7 /* Assets.xcassets in Resources */,
 				968385181D9142E000ED04F7 /* LICENSE in Resources */,
 				968384981D91360200ED04F7 /* Main.storyboard in Resources */,
+				96D072CB1D9A1B650064F92E /* ContentView.xib in Resources */,
 				9683853D1D91435100ED04F7 /* LICENSE in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -818,10 +925,13 @@
 			files = (
 				968384ED1D913E6700ED04F7 /* ViewController5.m in Sources */,
 				968385E21D92926700ED04F7 /* UIView+Animation.m in Sources */,
+				96D072CA1D9A1B650064F92E /* ContentView.m in Sources */,
 				9683859D1D928E5A00ED04F7 /* UIViewController+Addition.m in Sources */,
 				968385EB1D92A27F00ED04F7 /* DS_BaseViewController.m in Sources */,
 				968385961D928E5A00ED04F7 /* UINavigationBar+Addition.m in Sources */,
 				9683859E1D928E5A00ED04F7 /* UIViewController+Loading.m in Sources */,
+				96D072B41D9A146F0064F92E /* GradientProgressController.m in Sources */,
+				96D072C21D9A188C0064F92E /* UIScrollView+PDHeaderRefreshView.m in Sources */,
 				968385981D928E5A00ED04F7 /* MBProgressHUD+NHAddition.m in Sources */,
 				968384E41D913E5400ED04F7 /* ViewController2.m in Sources */,
 				968385941D928E5A00ED04F7 /* UIImageView+Addition.m in Sources */,
@@ -839,6 +949,7 @@
 				968385401D91435100ED04F7 /* MJProperty.m in Sources */,
 				968385421D91435100ED04F7 /* MJPropertyType.m in Sources */,
 				9683853E1D91435100ED04F7 /* MJExtensionConst.m in Sources */,
+				96D072B51D9A146F0064F92E /* WGradientProgress.m in Sources */,
 				968384951D91360200ED04F7 /* ViewController.m in Sources */,
 				968385431D91435100ED04F7 /* NSObject+MJClass.m in Sources */,
 				968384E71D913E5A00ED04F7 /* ViewController3.m in Sources */,
@@ -867,16 +978,19 @@
 				9683859C1D928E5A00ED04F7 /* UIView+Tap.m in Sources */,
 				968385931D928E5A00ED04F7 /* UIImage+ImageEffects.m in Sources */,
 				968385451D91435100ED04F7 /* NSObject+MJKeyValue.m in Sources */,
+				96D072BB1D9A14D20064F92E /* HJCActionSheet.m in Sources */,
 				968385DD1D92918100ED04F7 /* NSString+Extension.m in Sources */,
 				9683851A1D9142E000ED04F7 /* MASConstraint.m in Sources */,
 				968384E11D913E4600ED04F7 /* ViewController1.m in Sources */,
 				968385FC1D92A55000ED04F7 /* LeftSlideViewController.m in Sources */,
 				968384EA1D913E6000ED04F7 /* ViewController4.m in Sources */,
 				9683859A1D928E5A00ED04F7 /* UIView+Frame.m in Sources */,
+				96D072C11D9A188C0064F92E /* UIScrollView+PDFooterRefreshView.m in Sources */,
 				968385971D928E5A00ED04F7 /* UINavigationItem+NHAddition.m in Sources */,
 				968385991D928E5A00ED04F7 /* UILabel+Addition.m in Sources */,
 				968385F81D92A55000ED04F7 /* BaseNavController.m in Sources */,
 				968385201D9142E000ED04F7 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				96D072B61D9A146F0064F92E /* WJTouchID.m in Sources */,
 				968385921D928E5A00ED04F7 /* UIImage+Cut.m in Sources */,
 				9683851F1D9142E000ED04F7 /* NSArray+MASAdditions.m in Sources */,
 				968385221D9142E000ED04F7 /* ViewController+MASAdditions.m in Sources */,
@@ -884,6 +998,8 @@
 				968385441D91435100ED04F7 /* NSObject+MJCoding.m in Sources */,
 				968384C31D91367A00ED04F7 /* RootTool.m in Sources */,
 				968384DB1D913C0000ED04F7 /* UIView+Frame.m in Sources */,
+				96D072C61D9A1B220064F92E /* FDAlertView.m in Sources */,
+				96D072B71D9A146F0064F92E /* WJViewController.m in Sources */,
 				968384D81D913B8700ED04F7 /* UIImage+image.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

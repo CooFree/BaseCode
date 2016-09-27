@@ -9,8 +9,12 @@
 #import "ViewController2.h"
 #import "GradientProgressController.h"
 
-@interface ViewController2 ()<UITableViewDelegate,UITableViewDataSource>
+#import "ViewController.h"
 
+@interface ViewController2 ()<UITableViewDelegate,UITableViewDataSource>
+{
+    NSArray *textArr;
+}
 @end
 
 @implementation ViewController2
@@ -28,6 +32,8 @@
     table.dataSource=self;
     [self.view addSubview:table];
     
+    textArr=@[@"顶部 GradientProgress",@"ActionSheetView",@"文字绘写",@"AlertView"];
+    
 }
 - (CGFloat)headerHeight
 {
@@ -39,14 +45,14 @@
     return CGFLOAT_MIN;
 }
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
-    return 18;
+    return textArr.count;
 }
 -(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
     UITableViewCell *cell=[tableView dequeueReusableCellWithIdentifier:@"cell"];
     if (!cell) {
         cell=[[UITableViewCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"cell"];
     }
-    cell.textLabel.text=[NSString stringWithFormat:@"%d",indexPath.row];
+    cell.textLabel.text=textArr[indexPath.row];
     return cell;
 }
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
@@ -61,7 +67,8 @@
             
         default:
         {
-            ViewController2 *view = [[ViewController2 alloc]init];
+            ViewController *view = [[ViewController alloc]init];
+            view.index=indexPath.row;
             [self.navigationController pushViewController:view animated:YES];
         }
             break;
