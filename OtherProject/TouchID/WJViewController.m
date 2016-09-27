@@ -10,7 +10,7 @@
 
 #import "WJViewController.h"
 #import "WJTouchID.h"
-#import "WJAppDelegate.h"
+//#import "WJAppDelegate.h"
 
 @interface WJViewController ()<WJTouchIDDelegate>
 @property (weak, nonatomic) IBOutlet UILabel *notice;

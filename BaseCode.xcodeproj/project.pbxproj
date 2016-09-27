@@ -83,8 +83,6 @@
 		968385FA1D92A55000ED04F7 /* BaseTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 968385F31D92A55000ED04F7 /* BaseTabBarController.m */; };
 		968385FB1D92A55000ED04F7 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 968385F51D92A55000ED04F7 /* BaseViewController.m */; };
 		968385FC1D92A55000ED04F7 /* LeftSlideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 968385F71D92A55000ED04F7 /* LeftSlideViewController.m */; };
-		968386031D92A84000ED04F7 /* GradientProgressController.m in Sources */ = {isa = PBXBuildFile; fileRef = 968386001D92A84000ED04F7 /* GradientProgressController.m */; };
-		968386041D92A84000ED04F7 /* WGradientProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = 968386021D92A84000ED04F7 /* WGradientProgress.m */; };
 		96D072B41D9A146F0064F92E /* GradientProgressController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96D072AA1D9A146F0064F92E /* GradientProgressController.m */; };
 		96D072B51D9A146F0064F92E /* WGradientProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = 96D072AC1D9A146F0064F92E /* WGradientProgress.m */; };
 		96D072B61D9A146F0064F92E /* WJTouchID.m in Sources */ = {isa = PBXBuildFile; fileRef = 96D072B01D9A146F0064F92E /* WJTouchID.m */; };
@@ -95,6 +93,12 @@
 		96D072C61D9A1B220064F92E /* FDAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 96D072C51D9A1B220064F92E /* FDAlertView.m */; };
 		96D072CA1D9A1B650064F92E /* ContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 96D072C81D9A1B650064F92E /* ContentView.m */; };
 		96D072CB1D9A1B650064F92E /* ContentView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96D072C91D9A1B650064F92E /* ContentView.xib */; };
+		96D072CD1D9A21CB0064F92E /* exclamation-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 96D072CC1D9A21CB0064F92E /* exclamation-icon.png */; };
+		96D072D01D9A22400064F92E /* UIView+Boom.m in Sources */ = {isa = PBXBuildFile; fileRef = 96D072CF1D9A22400064F92E /* UIView+Boom.m */; };
+		96D072D91D9A43990064F92E /* MBTwitterScroll.m in Sources */ = {isa = PBXBuildFile; fileRef = 96D072D41D9A43990064F92E /* MBTwitterScroll.m */; };
+		96D072DA1D9A43990064F92E /* UIScrollView+TwitterCover.m in Sources */ = {isa = PBXBuildFile; fileRef = 96D072D61D9A43990064F92E /* UIScrollView+TwitterCover.m */; };
+		96D072DB1D9A43990064F92E /* PopoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96D072D81D9A43990064F92E /* PopoverViewController.m */; };
+		96D072DE1D9A614E0064F92E /* UIBezierPath+ZJText.m in Sources */ = {isa = PBXBuildFile; fileRef = 96D072DD1D9A614E0064F92E /* UIBezierPath+ZJText.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -273,10 +277,6 @@
 		968385F51D92A55000ED04F7 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
 		968385F61D92A55000ED04F7 /* LeftSlideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftSlideViewController.h; sourceTree = "<group>"; };
 		968385F71D92A55000ED04F7 /* LeftSlideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftSlideViewController.m; sourceTree = "<group>"; };
-		968385FF1D92A84000ED04F7 /* GradientProgressController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GradientProgressController.h; sourceTree = "<group>"; };
-		968386001D92A84000ED04F7 /* GradientProgressController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GradientProgressController.m; sourceTree = "<group>"; };
-		968386011D92A84000ED04F7 /* WGradientProgress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGradientProgress.h; sourceTree = "<group>"; };
-		968386021D92A84000ED04F7 /* WGradientProgress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WGradientProgress.m; sourceTree = "<group>"; };
 		96D072A91D9A146F0064F92E /* GradientProgressController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GradientProgressController.h; sourceTree = "<group>"; };
 		96D072AA1D9A146F0064F92E /* GradientProgressController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GradientProgressController.m; sourceTree = "<group>"; };
 		96D072AB1D9A146F0064F92E /* WGradientProgress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGradientProgress.h; sourceTree = "<group>"; };
@@ -297,6 +297,17 @@
 		96D072C71D9A1B650064F92E /* ContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContentView.h; sourceTree = "<group>"; };
 		96D072C81D9A1B650064F92E /* ContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContentView.m; sourceTree = "<group>"; };
 		96D072C91D9A1B650064F92E /* ContentView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ContentView.xib; sourceTree = "<group>"; };
+		96D072CC1D9A21CB0064F92E /* exclamation-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "exclamation-icon.png"; sourceTree = "<group>"; };
+		96D072CE1D9A22400064F92E /* UIView+Boom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Boom.h"; sourceTree = "<group>"; };
+		96D072CF1D9A22400064F92E /* UIView+Boom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Boom.m"; sourceTree = "<group>"; };
+		96D072D31D9A43990064F92E /* MBTwitterScroll.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBTwitterScroll.h; sourceTree = "<group>"; };
+		96D072D41D9A43990064F92E /* MBTwitterScroll.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBTwitterScroll.m; sourceTree = "<group>"; };
+		96D072D51D9A43990064F92E /* UIScrollView+TwitterCover.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+TwitterCover.h"; sourceTree = "<group>"; };
+		96D072D61D9A43990064F92E /* UIScrollView+TwitterCover.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+TwitterCover.m"; sourceTree = "<group>"; };
+		96D072D71D9A43990064F92E /* PopoverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopoverViewController.h; sourceTree = "<group>"; };
+		96D072D81D9A43990064F92E /* PopoverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopoverViewController.m; sourceTree = "<group>"; };
+		96D072DC1D9A614E0064F92E /* UIBezierPath+ZJText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBezierPath+ZJText.h"; sourceTree = "<group>"; };
+		96D072DD1D9A614E0064F92E /* UIBezierPath+ZJText.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBezierPath+ZJText.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -358,11 +369,6 @@
 				968384C01D91365A00ED04F7 /* BaseVC */,
 				968385541D92607300ED04F7 /* Localizable */,
 				968384D31D913AE900ED04F7 /* Category */,
-				968384931D91360200ED04F7 /* ViewController.h */,
-				968384941D91360200ED04F7 /* ViewController.m */,
-				96D072C71D9A1B650064F92E /* ContentView.h */,
-				96D072C81D9A1B650064F92E /* ContentView.m */,
-				96D072C91D9A1B650064F92E /* ContentView.xib */,
 				968385241D91435100ED04F7 /* MJExtension */,
 				968384FB1D9142E000ED04F7 /* Masonry */,
 				968384DF1D913E4600ED04F7 /* ViewController1.h */,
@@ -375,6 +381,12 @@
 				968384E91D913E6000ED04F7 /* ViewController4.m */,
 				968384EB1D913E6700ED04F7 /* ViewController5.h */,
 				968384EC1D913E6700ED04F7 /* ViewController5.m */,
+				968384931D91360200ED04F7 /* ViewController.h */,
+				968384941D91360200ED04F7 /* ViewController.m */,
+				96D072C71D9A1B650064F92E /* ContentView.h */,
+				96D072C81D9A1B650064F92E /* ContentView.m */,
+				96D072CC1D9A21CB0064F92E /* exclamation-icon.png */,
+				96D072C91D9A1B650064F92E /* ContentView.xib */,
 				968384961D91360200ED04F7 /* Main.storyboard */,
 				968384991D91360200ED04F7 /* Assets.xcassets */,
 				9683849B1D91360200ED04F7 /* LaunchScreen.storyboard */,
@@ -617,6 +629,8 @@
 				968385881D928E5A00ED04F7 /* UIView+Layer.m */,
 				968385891D928E5A00ED04F7 /* UIView+Tap.h */,
 				9683858A1D928E5A00ED04F7 /* UIView+Tap.m */,
+				96D072CE1D9A22400064F92E /* UIView+Boom.h */,
+				96D072CF1D9A22400064F92E /* UIView+Boom.m */,
 			);
 			path = UIView;
 			sourceTree = "<group>";
@@ -693,24 +707,13 @@
 		968385FD1D92A84000ED04F7 /* OtherProject */ = {
 			isa = PBXGroup;
 			children = (
+				96D072D11D9A43990064F92E /* MBTwitterScroll */,
 				96D072A71D9A146F0064F92E /* 文字绘写 */,
 				96D072A81D9A146F0064F92E /* GradientProgress */,
 				96D072AD1D9A146F0064F92E /* TouchID */,
 				96D072B31D9A146F0064F92E /* UIAlertView弹框 */,
-				968385FE1D92A84000ED04F7 /* GradientProgress */,
 			);
 			path = OtherProject;
-			sourceTree = "<group>";
-		};
-		968385FE1D92A84000ED04F7 /* GradientProgress */ = {
-			isa = PBXGroup;
-			children = (
-				968385FF1D92A84000ED04F7 /* GradientProgressController.h */,
-				968386001D92A84000ED04F7 /* GradientProgressController.m */,
-				968386011D92A84000ED04F7 /* WGradientProgress.h */,
-				968386021D92A84000ED04F7 /* WGradientProgress.m */,
-			);
-			path = GradientProgress;
 			sourceTree = "<group>";
 		};
 		96D072A71D9A146F0064F92E /* 文字绘写 */ = {
@@ -721,6 +724,8 @@
 				96D072BE1D9A188C0064F92E /* UIScrollView+PDFooterRefreshView.m */,
 				96D072BF1D9A188C0064F92E /* UIScrollView+PDHeaderRefreshView.h */,
 				96D072C01D9A188C0064F92E /* UIScrollView+PDHeaderRefreshView.m */,
+				96D072DC1D9A614E0064F92E /* UIBezierPath+ZJText.h */,
+				96D072DD1D9A614E0064F92E /* UIBezierPath+ZJText.m */,
 			);
 			path = "文字绘写";
 			sourceTree = "<group>";
@@ -780,6 +785,27 @@
 				96D072C51D9A1B220064F92E /* FDAlertView.m */,
 			);
 			path = AlertView;
+			sourceTree = "<group>";
+		};
+		96D072D11D9A43990064F92E /* MBTwitterScroll */ = {
+			isa = PBXGroup;
+			children = (
+				96D072D21D9A43990064F92E /* MBTwitterScroll */,
+				96D072D71D9A43990064F92E /* PopoverViewController.h */,
+				96D072D81D9A43990064F92E /* PopoverViewController.m */,
+			);
+			path = MBTwitterScroll;
+			sourceTree = "<group>";
+		};
+		96D072D21D9A43990064F92E /* MBTwitterScroll */ = {
+			isa = PBXGroup;
+			children = (
+				96D072D31D9A43990064F92E /* MBTwitterScroll.h */,
+				96D072D41D9A43990064F92E /* MBTwitterScroll.m */,
+				96D072D51D9A43990064F92E /* UIScrollView+TwitterCover.h */,
+				96D072D61D9A43990064F92E /* UIScrollView+TwitterCover.m */,
+			);
+			path = MBTwitterScroll;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -892,6 +918,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9683849D1D91360200ED04F7 /* LaunchScreen.storyboard in Resources */,
+				96D072CD1D9A21CB0064F92E /* exclamation-icon.png in Resources */,
 				968385571D9260C500ED04F7 /* Localizable.strings in Resources */,
 				968385641D9289D000ED04F7 /* 2016-09-21.gif in Resources */,
 				9683849A1D91360200ED04F7 /* Assets.xcassets in Resources */,
@@ -940,7 +967,6 @@
 				968385EA1D92A27F00ED04F7 /* DS_BaseTableViewController.m in Sources */,
 				9683851C1D9142E000ED04F7 /* MASLayoutConstraint.m in Sources */,
 				968385FB1D92A55000ED04F7 /* BaseViewController.m in Sources */,
-				968386041D92A84000ED04F7 /* WGradientProgress.m in Sources */,
 				968385951D928E5A00ED04F7 /* UIImageView+LBBlurredImage.m in Sources */,
 				968385F91D92A55000ED04F7 /* BaseTabBar.m in Sources */,
 				968385DB1D92918100ED04F7 /* NSString+Addition.m in Sources */,
@@ -962,18 +988,20 @@
 				9683851B1D9142E000ED04F7 /* MASConstraintMaker.m in Sources */,
 				968385211D9142E000ED04F7 /* View+MASAdditions.m in Sources */,
 				968385D91D92918100ED04F7 /* NSDate+Addition.m in Sources */,
-				968386031D92A84000ED04F7 /* GradientProgressController.m in Sources */,
 				9683856B1D928E4800ED04F7 /* UIBarButtonItem+Addition.m in Sources */,
 				9683851E1D9142E000ED04F7 /* MASViewConstraint.m in Sources */,
 				968385FA1D92A55000ED04F7 /* BaseTabBarController.m in Sources */,
 				968385191D9142E000ED04F7 /* MASCompositeConstraint.m in Sources */,
 				968385DA1D92918100ED04F7 /* NSAttributedString+Size.m in Sources */,
+				96D072D91D9A43990064F92E /* MBTwitterScroll.m in Sources */,
 				968385481D91435100ED04F7 /* README.md in Sources */,
 				9683848F1D91360200ED04F7 /* main.m in Sources */,
 				968385411D91435100ED04F7 /* MJPropertyKey.m in Sources */,
 				9683859B1D928E5A00ED04F7 /* UIView+Layer.m in Sources */,
+				96D072DB1D9A43990064F92E /* PopoverViewController.m in Sources */,
 				968385901D928E5A00ED04F7 /* UILabel+CountDown.m in Sources */,
 				968385DF1D92918100ED04F7 /* NSString+URL.m in Sources */,
+				96D072DE1D9A614E0064F92E /* UIBezierPath+ZJText.m in Sources */,
 				968385911D928E5A00ED04F7 /* UIImage+Addition.m in Sources */,
 				9683859C1D928E5A00ED04F7 /* UIView+Tap.m in Sources */,
 				968385931D928E5A00ED04F7 /* UIImage+ImageEffects.m in Sources */,
@@ -982,6 +1010,7 @@
 				968385DD1D92918100ED04F7 /* NSString+Extension.m in Sources */,
 				9683851A1D9142E000ED04F7 /* MASConstraint.m in Sources */,
 				968384E11D913E4600ED04F7 /* ViewController1.m in Sources */,
+				96D072DA1D9A43990064F92E /* UIScrollView+TwitterCover.m in Sources */,
 				968385FC1D92A55000ED04F7 /* LeftSlideViewController.m in Sources */,
 				968384EA1D913E6000ED04F7 /* ViewController4.m in Sources */,
 				9683859A1D928E5A00ED04F7 /* UIView+Frame.m in Sources */,
@@ -1001,6 +1030,7 @@
 				96D072C61D9A1B220064F92E /* FDAlertView.m in Sources */,
 				96D072B71D9A146F0064F92E /* WJViewController.m in Sources */,
 				968384D81D913B8700ED04F7 /* UIImage+image.m in Sources */,
+				96D072D01D9A22400064F92E /* UIView+Boom.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
