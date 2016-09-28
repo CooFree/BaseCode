@@ -15,6 +15,7 @@
 #import "ContentView.h"
 #import "MBTwitterScroll.h"
 #import "PopoverViewController.h"
+#import "BHBPopView.h"
 
 @interface ViewController ()<HJCActionSheetDelegate,UITableViewDataSource,FDAlertViewDelegate,MBTwitterScrollDelegate,UITableViewDelegate>
 
@@ -51,7 +52,9 @@
         case 5:
             [self MBTwitterScroll];
             break;
-            
+        case 6:
+            [self POPAnimation];
+            break;
         default:
             break;
     }
@@ -293,6 +296,50 @@
 }
 
 
+#pragma mark - 新浪弹框动画
+- (void)POPAnimation{
+    UIButton *btn=[UIButton buttonWithTitle:@"Click" normalColor:[UIColor blackColor] selectedColor:[UIColor blackColor] fontSize:14. target:self action:@selector(POPBtnClick)];
+    btn.frame=CGRectMake(0, 70, 60, 30);
+    [self.view addSubview:btn];
+}
+- (void)POPBtnClick{
+    BHBItem * item0 = [[BHBItem alloc]initWithTitle:@"Text" Icon:@"images.bundle/tabbar_compose_idea"];
+    BHBItem * item1 = [[BHBItem alloc]initWithTitle:@"Albums" Icon:@"images.bundle/tabbar_compose_photo"];
+    BHBItem * item2 = [[BHBItem alloc]initWithTitle:@"Camera" Icon:@"images.bundle/tabbar_compose_camera"];
+    //第4个按钮内部有一组
+    BHBGroup * item3 = [[BHBGroup alloc]initWithTitle:@"Check in" Icon:@"images.bundle/tabbar_compose_lbs"];
+    BHBItem * item31 = [[BHBItem alloc]initWithTitle:@"Friend Circle" Icon:@"images.bundle/tabbar_compose_friend"];
+    BHBItem * item32 = [[BHBItem alloc]initWithTitle:@"Weibo Camera" Icon:@"images.bundle/tabbar_compose_wbcamera"];
+    BHBItem * item33 = [[BHBItem alloc]initWithTitle:@"Music" Icon:@"images.bundle/tabbar_compose_music"];
+    item3.items = @[item31,item32,item33];
+    
+    BHBItem * item4 = [[BHBItem alloc]initWithTitle:@"Review" Icon:@"images.bundle/tabbar_compose_review"];
+    
+    //第六个按钮内部有一组
+    BHBGroup * item5 = [[BHBGroup alloc]initWithTitle:@"More" Icon:@"images.bundle/tabbar_compose_more"];
+    BHBItem * item51 = [[BHBItem alloc]initWithTitle:@"Friend Circle" Icon:@"images.bundle/tabbar_compose_friend"];
+    BHBItem * item52 = [[BHBItem alloc]initWithTitle:@"Weibo Camera" Icon:@"images.bundle/tabbar_compose_wbcamera"];
+    BHBItem * item53 = [[BHBItem alloc]initWithTitle:@"Music" Icon:@"images.bundle/tabbar_compose_music"];
+    BHBItem * item54 = [[BHBItem alloc]initWithTitle:@"Blog" Icon:@"images.bundle/tabbar_compose_weibo"];
+    BHBItem * item55 = [[BHBItem alloc]initWithTitle:@"Collection" Icon:@"images.bundle/tabbar_compose_transfer"];
+    BHBItem * item56 = [[BHBItem alloc]initWithTitle:@"Voice" Icon:@"images.bundle/tabbar_compose_voice"];
+    item5.items = @[item51,item52,item53,item54,item55,item56];
+    
+    
+    //添加popview
+    [BHBPopView showToView:self.view.window withItems:@[item0,item1,item2,item3,item4,item5]andSelectBlock:^(BHBItem *item) {
+        if ([item isKindOfClass:[BHBGroup class]]) {
+            NSLog(@"选中%@分组",item.title);
+        }else{
+            NSLog(@"选中%@项",item.title);
+        }
+    }];
+    //添加popview
+    //    [BHBPopView showToView:self.view andImages:@[@"images.bundle/tabbar_compose_idea",@"images.bundle/tabbar_compose_photo",@"images.bundle/tabbar_compose_camera",@"images.bundle/tabbar_compose_lbs",@"images.bundle/tabbar_compose_review",@"images.bundle/tabbar_compose_more"] andTitles:@[@"Text",@"Albums",@"Camera",@"Check in",@"Review",@"More"] andSelectBlock:^(BHBItem *item) {
+    //
+    //    }];
+
+}
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.

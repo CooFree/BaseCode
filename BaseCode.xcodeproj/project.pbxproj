@@ -99,6 +99,19 @@
 		96D072DA1D9A43990064F92E /* UIScrollView+TwitterCover.m in Sources */ = {isa = PBXBuildFile; fileRef = 96D072D61D9A43990064F92E /* UIScrollView+TwitterCover.m */; };
 		96D072DB1D9A43990064F92E /* PopoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96D072D81D9A43990064F92E /* PopoverViewController.m */; };
 		96D072DE1D9A614E0064F92E /* UIBezierPath+ZJText.m in Sources */ = {isa = PBXBuildFile; fileRef = 96D072DD1D9A614E0064F92E /* UIBezierPath+ZJText.m */; };
+		96D073741D9BB5F30064F92E /* BHBBottomBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 96D0735B1D9BB5F30064F92E /* BHBBottomBar.m */; };
+		96D073751D9BB5F30064F92E /* BHBCenterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 96D0735D1D9BB5F30064F92E /* BHBCenterView.m */; };
+		96D073761D9BB5F30064F92E /* BHBCustomBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = 96D0735F1D9BB5F30064F92E /* BHBCustomBtn.m */; };
+		96D073771D9BB5F30064F92E /* BHBGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 96D073611D9BB5F30064F92E /* BHBGroup.m */; };
+		96D073781D9BB5F30064F92E /* BHBItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 96D073631D9BB5F30064F92E /* BHBItem.m */; };
+		96D073791D9BB5F30064F92E /* BHBPlaySoundTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 96D073651D9BB5F30064F92E /* BHBPlaySoundTool.m */; };
+		96D0737A1D9BB5F30064F92E /* BHBPopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 96D073671D9BB5F30064F92E /* BHBPopView.m */; };
+		96D0737B1D9BB5F30064F92E /* images.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 96D0736A1D9BB5F30064F92E /* images.bundle */; };
+		96D0737C1D9BB5F30064F92E /* music.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 96D0736B1D9BB5F30064F92E /* music.bundle */; };
+		96D0737D1D9BB5F30064F92E /* UIButton+BHBSetImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 96D0736D1D9BB5F30064F92E /* UIButton+BHBSetImage.m */; };
+		96D0737E1D9BB5F30064F92E /* UIImage+BHBEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 96D0736F1D9BB5F30064F92E /* UIImage+BHBEffects.m */; };
+		96D0737F1D9BB5F30064F92E /* UIImageView+BHBSetImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 96D073711D9BB5F30064F92E /* UIImageView+BHBSetImage.m */; };
+		96D073801D9BB5F30064F92E /* UIView+BHBAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 96D073731D9BB5F30064F92E /* UIView+BHBAnimation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -308,6 +321,31 @@
 		96D072D81D9A43990064F92E /* PopoverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopoverViewController.m; sourceTree = "<group>"; };
 		96D072DC1D9A614E0064F92E /* UIBezierPath+ZJText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBezierPath+ZJText.h"; sourceTree = "<group>"; };
 		96D072DD1D9A614E0064F92E /* UIBezierPath+ZJText.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBezierPath+ZJText.m"; sourceTree = "<group>"; };
+		96D0735A1D9BB5F30064F92E /* BHBBottomBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHBBottomBar.h; sourceTree = "<group>"; };
+		96D0735B1D9BB5F30064F92E /* BHBBottomBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BHBBottomBar.m; sourceTree = "<group>"; };
+		96D0735C1D9BB5F30064F92E /* BHBCenterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHBCenterView.h; sourceTree = "<group>"; };
+		96D0735D1D9BB5F30064F92E /* BHBCenterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BHBCenterView.m; sourceTree = "<group>"; };
+		96D0735E1D9BB5F30064F92E /* BHBCustomBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHBCustomBtn.h; sourceTree = "<group>"; };
+		96D0735F1D9BB5F30064F92E /* BHBCustomBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BHBCustomBtn.m; sourceTree = "<group>"; };
+		96D073601D9BB5F30064F92E /* BHBGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHBGroup.h; sourceTree = "<group>"; };
+		96D073611D9BB5F30064F92E /* BHBGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BHBGroup.m; sourceTree = "<group>"; };
+		96D073621D9BB5F30064F92E /* BHBItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHBItem.h; sourceTree = "<group>"; };
+		96D073631D9BB5F30064F92E /* BHBItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BHBItem.m; sourceTree = "<group>"; };
+		96D073641D9BB5F30064F92E /* BHBPlaySoundTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHBPlaySoundTool.h; sourceTree = "<group>"; };
+		96D073651D9BB5F30064F92E /* BHBPlaySoundTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BHBPlaySoundTool.m; sourceTree = "<group>"; };
+		96D073661D9BB5F30064F92E /* BHBPopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHBPopView.h; sourceTree = "<group>"; };
+		96D073671D9BB5F30064F92E /* BHBPopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BHBPopView.m; sourceTree = "<group>"; };
+		96D073681D9BB5F30064F92E /* BHBSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHBSingleton.h; sourceTree = "<group>"; };
+		96D0736A1D9BB5F30064F92E /* images.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = images.bundle; sourceTree = "<group>"; };
+		96D0736B1D9BB5F30064F92E /* music.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = music.bundle; sourceTree = "<group>"; };
+		96D0736C1D9BB5F30064F92E /* UIButton+BHBSetImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+BHBSetImage.h"; sourceTree = "<group>"; };
+		96D0736D1D9BB5F30064F92E /* UIButton+BHBSetImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+BHBSetImage.m"; sourceTree = "<group>"; };
+		96D0736E1D9BB5F30064F92E /* UIImage+BHBEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+BHBEffects.h"; sourceTree = "<group>"; };
+		96D0736F1D9BB5F30064F92E /* UIImage+BHBEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+BHBEffects.m"; sourceTree = "<group>"; };
+		96D073701D9BB5F30064F92E /* UIImageView+BHBSetImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+BHBSetImage.h"; sourceTree = "<group>"; };
+		96D073711D9BB5F30064F92E /* UIImageView+BHBSetImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+BHBSetImage.m"; sourceTree = "<group>"; };
+		96D073721D9BB5F30064F92E /* UIView+BHBAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+BHBAnimation.h"; sourceTree = "<group>"; };
+		96D073731D9BB5F30064F92E /* UIView+BHBAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+BHBAnimation.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -707,6 +745,7 @@
 		968385FD1D92A84000ED04F7 /* OtherProject */ = {
 			isa = PBXGroup;
 			children = (
+				96D073581D9BB59F0064F92E /* 新浪弹框动画 */,
 				96D072D11D9A43990064F92E /* MBTwitterScroll */,
 				96D072A71D9A146F0064F92E /* 文字绘写 */,
 				96D072A81D9A146F0064F92E /* GradientProgress */,
@@ -806,6 +845,54 @@
 				96D072D61D9A43990064F92E /* UIScrollView+TwitterCover.m */,
 			);
 			path = MBTwitterScroll;
+			sourceTree = "<group>";
+		};
+		96D073581D9BB59F0064F92E /* 新浪弹框动画 */ = {
+			isa = PBXGroup;
+			children = (
+				96D073591D9BB5F30064F92E /* BHBPopView */,
+			);
+			path = "新浪弹框动画";
+			sourceTree = "<group>";
+		};
+		96D073591D9BB5F30064F92E /* BHBPopView */ = {
+			isa = PBXGroup;
+			children = (
+				96D0735A1D9BB5F30064F92E /* BHBBottomBar.h */,
+				96D0735B1D9BB5F30064F92E /* BHBBottomBar.m */,
+				96D0735C1D9BB5F30064F92E /* BHBCenterView.h */,
+				96D0735D1D9BB5F30064F92E /* BHBCenterView.m */,
+				96D0735E1D9BB5F30064F92E /* BHBCustomBtn.h */,
+				96D0735F1D9BB5F30064F92E /* BHBCustomBtn.m */,
+				96D073601D9BB5F30064F92E /* BHBGroup.h */,
+				96D073611D9BB5F30064F92E /* BHBGroup.m */,
+				96D073621D9BB5F30064F92E /* BHBItem.h */,
+				96D073631D9BB5F30064F92E /* BHBItem.m */,
+				96D073641D9BB5F30064F92E /* BHBPlaySoundTool.h */,
+				96D073651D9BB5F30064F92E /* BHBPlaySoundTool.m */,
+				96D073661D9BB5F30064F92E /* BHBPopView.h */,
+				96D073671D9BB5F30064F92E /* BHBPopView.m */,
+				96D073681D9BB5F30064F92E /* BHBSingleton.h */,
+				96D073691D9BB5F30064F92E /* Resource */,
+				96D0736C1D9BB5F30064F92E /* UIButton+BHBSetImage.h */,
+				96D0736D1D9BB5F30064F92E /* UIButton+BHBSetImage.m */,
+				96D0736E1D9BB5F30064F92E /* UIImage+BHBEffects.h */,
+				96D0736F1D9BB5F30064F92E /* UIImage+BHBEffects.m */,
+				96D073701D9BB5F30064F92E /* UIImageView+BHBSetImage.h */,
+				96D073711D9BB5F30064F92E /* UIImageView+BHBSetImage.m */,
+				96D073721D9BB5F30064F92E /* UIView+BHBAnimation.h */,
+				96D073731D9BB5F30064F92E /* UIView+BHBAnimation.m */,
+			);
+			path = BHBPopView;
+			sourceTree = "<group>";
+		};
+		96D073691D9BB5F30064F92E /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				96D0736A1D9BB5F30064F92E /* images.bundle */,
+				96D0736B1D9BB5F30064F92E /* music.bundle */,
+			);
+			path = Resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -922,8 +1009,10 @@
 				968385571D9260C500ED04F7 /* Localizable.strings in Resources */,
 				968385641D9289D000ED04F7 /* 2016-09-21.gif in Resources */,
 				9683849A1D91360200ED04F7 /* Assets.xcassets in Resources */,
+				96D0737B1D9BB5F30064F92E /* images.bundle in Resources */,
 				968385181D9142E000ED04F7 /* LICENSE in Resources */,
 				968384981D91360200ED04F7 /* Main.storyboard in Resources */,
+				96D0737C1D9BB5F30064F92E /* music.bundle in Resources */,
 				96D072CB1D9A1B650064F92E /* ContentView.xib in Resources */,
 				9683853D1D91435100ED04F7 /* LICENSE in Resources */,
 			);
@@ -955,6 +1044,7 @@
 				96D072CA1D9A1B650064F92E /* ContentView.m in Sources */,
 				9683859D1D928E5A00ED04F7 /* UIViewController+Addition.m in Sources */,
 				968385EB1D92A27F00ED04F7 /* DS_BaseViewController.m in Sources */,
+				96D0737A1D9BB5F30064F92E /* BHBPopView.m in Sources */,
 				968385961D928E5A00ED04F7 /* UINavigationBar+Addition.m in Sources */,
 				9683859E1D928E5A00ED04F7 /* UIViewController+Loading.m in Sources */,
 				96D072B41D9A146F0064F92E /* GradientProgressController.m in Sources */,
@@ -966,11 +1056,13 @@
 				968385231D9142E000ED04F7 /* README.md in Sources */,
 				968385EA1D92A27F00ED04F7 /* DS_BaseTableViewController.m in Sources */,
 				9683851C1D9142E000ED04F7 /* MASLayoutConstraint.m in Sources */,
+				96D0737E1D9BB5F30064F92E /* UIImage+BHBEffects.m in Sources */,
 				968385FB1D92A55000ED04F7 /* BaseViewController.m in Sources */,
 				968385951D928E5A00ED04F7 /* UIImageView+LBBlurredImage.m in Sources */,
 				968385F91D92A55000ED04F7 /* BaseTabBar.m in Sources */,
 				968385DB1D92918100ED04F7 /* NSString+Addition.m in Sources */,
 				968385DE1D92918100ED04F7 /* NSString+Size.m in Sources */,
+				96D073741D9BB5F30064F92E /* BHBBottomBar.m in Sources */,
 				968385461D91435100ED04F7 /* NSObject+MJProperty.m in Sources */,
 				968385401D91435100ED04F7 /* MJProperty.m in Sources */,
 				968385421D91435100ED04F7 /* MJPropertyType.m in Sources */,
@@ -979,6 +1071,7 @@
 				968384951D91360200ED04F7 /* ViewController.m in Sources */,
 				968385431D91435100ED04F7 /* NSObject+MJClass.m in Sources */,
 				968384E71D913E5A00ED04F7 /* ViewController3.m in Sources */,
+				96D073801D9BB5F30064F92E /* UIView+BHBAnimation.m in Sources */,
 				9683853F1D91435100ED04F7 /* MJFoundation.m in Sources */,
 				9683851D1D9142E000ED04F7 /* MASViewAttribute.m in Sources */,
 				968384921D91360200ED04F7 /* AppDelegate.m in Sources */,
@@ -992,11 +1085,14 @@
 				9683851E1D9142E000ED04F7 /* MASViewConstraint.m in Sources */,
 				968385FA1D92A55000ED04F7 /* BaseTabBarController.m in Sources */,
 				968385191D9142E000ED04F7 /* MASCompositeConstraint.m in Sources */,
+				96D073751D9BB5F30064F92E /* BHBCenterView.m in Sources */,
 				968385DA1D92918100ED04F7 /* NSAttributedString+Size.m in Sources */,
 				96D072D91D9A43990064F92E /* MBTwitterScroll.m in Sources */,
 				968385481D91435100ED04F7 /* README.md in Sources */,
 				9683848F1D91360200ED04F7 /* main.m in Sources */,
 				968385411D91435100ED04F7 /* MJPropertyKey.m in Sources */,
+				96D073791D9BB5F30064F92E /* BHBPlaySoundTool.m in Sources */,
+				96D073771D9BB5F30064F92E /* BHBGroup.m in Sources */,
 				9683859B1D928E5A00ED04F7 /* UIView+Layer.m in Sources */,
 				96D072DB1D9A43990064F92E /* PopoverViewController.m in Sources */,
 				968385901D928E5A00ED04F7 /* UILabel+CountDown.m in Sources */,
@@ -1004,12 +1100,14 @@
 				96D072DE1D9A614E0064F92E /* UIBezierPath+ZJText.m in Sources */,
 				968385911D928E5A00ED04F7 /* UIImage+Addition.m in Sources */,
 				9683859C1D928E5A00ED04F7 /* UIView+Tap.m in Sources */,
+				96D0737D1D9BB5F30064F92E /* UIButton+BHBSetImage.m in Sources */,
 				968385931D928E5A00ED04F7 /* UIImage+ImageEffects.m in Sources */,
 				968385451D91435100ED04F7 /* NSObject+MJKeyValue.m in Sources */,
 				96D072BB1D9A14D20064F92E /* HJCActionSheet.m in Sources */,
 				968385DD1D92918100ED04F7 /* NSString+Extension.m in Sources */,
 				9683851A1D9142E000ED04F7 /* MASConstraint.m in Sources */,
 				968384E11D913E4600ED04F7 /* ViewController1.m in Sources */,
+				96D073781D9BB5F30064F92E /* BHBItem.m in Sources */,
 				96D072DA1D9A43990064F92E /* UIScrollView+TwitterCover.m in Sources */,
 				968385FC1D92A55000ED04F7 /* LeftSlideViewController.m in Sources */,
 				968384EA1D913E6000ED04F7 /* ViewController4.m in Sources */,
@@ -1024,10 +1122,12 @@
 				9683851F1D9142E000ED04F7 /* NSArray+MASAdditions.m in Sources */,
 				968385221D9142E000ED04F7 /* ViewController+MASAdditions.m in Sources */,
 				9683856C1D928E4800ED04F7 /* UIButton+Addition.m in Sources */,
+				96D0737F1D9BB5F30064F92E /* UIImageView+BHBSetImage.m in Sources */,
 				968385441D91435100ED04F7 /* NSObject+MJCoding.m in Sources */,
 				968384C31D91367A00ED04F7 /* RootTool.m in Sources */,
 				968384DB1D913C0000ED04F7 /* UIView+Frame.m in Sources */,
 				96D072C61D9A1B220064F92E /* FDAlertView.m in Sources */,
+				96D073761D9BB5F30064F92E /* BHBCustomBtn.m in Sources */,
 				96D072B71D9A146F0064F92E /* WJViewController.m in Sources */,
 				968384D81D913B8700ED04F7 /* UIImage+image.m in Sources */,
 				96D072D01D9A22400064F92E /* UIView+Boom.m in Sources */,
