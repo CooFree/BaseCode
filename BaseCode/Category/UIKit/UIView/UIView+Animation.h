@@ -25,7 +25,7 @@
 /**
  * 抛物线动画
  *
- * @param enabled 动画开始与结束，YES开始、NO结束动画
+ * @param enable 动画开始与结束，YES开始、NO结束动画
  *
  * @param fromPoint 出发点
  *
@@ -58,8 +58,8 @@
  *
  *@param enabled 开始／关闭动画
  *@param time    一个循环时长
- *@param fromValue    开始透明度
- *@param toValue      结束透明度
+ *@param fvalue    开始透明度
+ *@param tvalue      结束透明度
  *
  */
 - (void)opacityStatus:(BOOL)enabled time:(CGFloat)time fromValue:(CGFloat)fvalue toValue:(CGFloat)tvalue;
