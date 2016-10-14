@@ -112,6 +112,7 @@
 		96D0737E1D9BB5F30064F92E /* UIImage+BHBEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 96D0736F1D9BB5F30064F92E /* UIImage+BHBEffects.m */; };
 		96D0737F1D9BB5F30064F92E /* UIImageView+BHBSetImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 96D073711D9BB5F30064F92E /* UIImageView+BHBSetImage.m */; };
 		96D073801D9BB5F30064F92E /* UIView+BHBAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 96D073731D9BB5F30064F92E /* UIView+BHBAnimation.m */; };
+		96FC39C21DB0CE7C002FE5D5 /* UIImage+CFQRcode.m in Sources */ = {isa = PBXBuildFile; fileRef = 96FC39C11DB0CE7C002FE5D5 /* UIImage+CFQRcode.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -346,6 +347,8 @@
 		96D073711D9BB5F30064F92E /* UIImageView+BHBSetImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+BHBSetImage.m"; sourceTree = "<group>"; };
 		96D073721D9BB5F30064F92E /* UIView+BHBAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+BHBAnimation.h"; sourceTree = "<group>"; };
 		96D073731D9BB5F30064F92E /* UIView+BHBAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+BHBAnimation.m"; sourceTree = "<group>"; };
+		96FC39C01DB0CE7C002FE5D5 /* UIImage+CFQRcode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+CFQRcode.h"; sourceTree = "<group>"; };
+		96FC39C11DB0CE7C002FE5D5 /* UIImage+CFQRcode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+CFQRcode.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -623,6 +626,8 @@
 		968385701D928E5A00ED04F7 /* UIImage */ = {
 			isa = PBXGroup;
 			children = (
+				96FC39C01DB0CE7C002FE5D5 /* UIImage+CFQRcode.h */,
+				96FC39C11DB0CE7C002FE5D5 /* UIImage+CFQRcode.m */,
 				968384D61D913B8700ED04F7 /* UIImage+image.h */,
 				968384D71D913B8700ED04F7 /* UIImage+image.m */,
 				968385711D928E5A00ED04F7 /* UIImage+Addition.h */,
@@ -1052,6 +1057,7 @@
 				968385981D928E5A00ED04F7 /* MBProgressHUD+NHAddition.m in Sources */,
 				968384E41D913E5400ED04F7 /* ViewController2.m in Sources */,
 				968385941D928E5A00ED04F7 /* UIImageView+Addition.m in Sources */,
+				96FC39C21DB0CE7C002FE5D5 /* UIImage+CFQRcode.m in Sources */,
 				968385471D91435100ED04F7 /* NSString+MJExtension.m in Sources */,
 				968385231D9142E000ED04F7 /* README.md in Sources */,
 				968385EA1D92A27F00ED04F7 /* DS_BaseTableViewController.m in Sources */,
