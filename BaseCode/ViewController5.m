@@ -7,6 +7,7 @@
 //
 
 #import "ViewController5.h"
+#import "RootTool.h"
 
 @interface ViewController5 ()
 
@@ -16,7 +17,20 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
+    
+    UIButton *downBtn = [UIButton buttonWithType:UIButtonTypeCustom];
+    [downBtn setTitle:@"world" forState:UIControlStateNormal];
+    downBtn.frame = CGRectMake(10, 400, 100, 100);
+    [self.view addSubview:downBtn];
+    [downBtn addTarget:self
+                action:@selector(showTable:)
+      forControlEvents:UIControlEventTouchUpInside];
+    [downBtn setBackgroundColor:[UIColor purpleColor]];
+}
+- (void)showTable:(UIButton *)btn {
+    [[NSUserDefaults standardUserDefaults] setObject:@"NO" forKey:@"isFirstLogin"];
+    [[[UIApplication sharedApplication]delegate]window].rootViewController=[RootTool choosRootViewController];
 }
 
 - (void)didReceiveMemoryWarning {
