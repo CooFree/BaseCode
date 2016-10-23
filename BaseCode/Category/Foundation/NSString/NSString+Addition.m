@@ -238,4 +238,50 @@
     return (strlength+1)/2;
     
 }
+
+
 @end
+
+/*
+ //截去字符串(以空格为例)
+ 
+ NSString *myString5 = @"   one     two three  ";
+ 
+ NSString *trimmed1 = [myString5 stringByTrimmingCharactersInSet:[NSCharacterSetwhitespaceAndNewlineCharacterSet]];
+ 
+ //whitespaceAndNewlineCharacterSet去除前后的空格和换行符
+ 
+ NSString *trimmed2 = [myString5 stringByTrimmingCharactersInSet:[NSCharacterSetwhitespaceCharacterSet]];
+ 
+ //whitespaceCharacterSet 去除前后的空格,实际效果来看只实现了去除首字母前面的空格
+ 
+ NSLog(@"myString5 = %@",myString5);
+ 
+ NSLog(@"trimmed1 = %@",trimmed1);
+ 
+ NSLog(@"trimmed2 = %@",trimmed2);
+ 
+ //predicate 断言断定，使基于,下面的方法实现删除空格
+ 
+ NSPredicate *noE = [NSPredicatepredicateWithFormat:@"SELF!=''"];
+ 
+ NSArray *part = [myString5 componentsSeparatedByCharactersInSet:[NSCharacterSetwhitespaceCharacterSet]];
+ 
+ NSArray *file = [part filteredArrayUsingPredicate:noE];
+ 
+ NSString *trimmed3 = [file componentsJoinedByString:@""];
+ 
+ NSLog(@"trimmed3 = %@",trimmed3);
+ 
+ NSString *filePath = [[NSBundle mainBundle] pathForResource:contentText ofType:@"txt"];
+ NSString *string=[[NSString alloc] initWithContentsOfFile:filePath encoding:NSUTF8StringEncoding error:nil];
+ NSArray *stringsArray = [string componentsSeparatedByCharactersInSet:[NSCharacterSet newlineCharacterSet]];
+ [stringsArray enumerateObjectsUsingBlock:^(id  _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
+ NSArray *subArr = [obj componentsSeparatedByCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]];
+ //        MyLog(@"subArr: %@", subArr);
+ if ([subArr[0] isEqualToString:object]) {
+ tmpString = [NSString stringWithFormat:@"%@", subArr[subArr.count-1]];
+ *stop = YES;
+ }
+ }];
+ */

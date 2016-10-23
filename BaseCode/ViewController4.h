@@ -8,7 +8,8 @@
 
 #import <UIKit/UIKit.h>
 #import "BaseViewController.h"
+#import "DS_BaseTableViewController.h"
 
-@interface ViewController4 : BaseViewController
+@interface ViewController4 : DS_BaseTableViewController
 
 @end

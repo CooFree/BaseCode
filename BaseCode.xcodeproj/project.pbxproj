@@ -87,6 +87,20 @@
 		96B1EF2F1DBB7A7400B175B0 /* qidong.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 96B1EF2E1DBB7A7400B175B0 /* qidong.mp4 */; };
 		96B1EF391DBC5D0700B175B0 /* DXPopover.m in Sources */ = {isa = PBXBuildFile; fileRef = 96B1EF381DBC5D0700B175B0 /* DXPopover.m */; };
 		96B1EF3C1DBC5D2300B175B0 /* PopArrowTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 96B1EF3B1DBC5D2300B175B0 /* PopArrowTable.m */; };
+		96B1EF491DBCB03E00B175B0 /* SGActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 96B1EF441DBCB03E00B175B0 /* SGActionSheet.m */; };
+		96B1EF4A1DBCB03E00B175B0 /* SGActionSheetCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 96B1EF461DBCB03E00B175B0 /* SGActionSheetCell.m */; };
+		96B1EF4B1DBCB03E00B175B0 /* SGAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 96B1EF481DBCB03E00B175B0 /* SGAlertView.m */; };
+		96B1EF5D1DBCB04F00B175B0 /* SGPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 96B1EF4D1DBCB04F00B175B0 /* SGPickerView.m */; };
+		96B1EF5E1DBCB04F00B175B0 /* SGDatePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 96B1EF4F1DBCB04F00B175B0 /* SGDatePicker.m */; };
+		96B1EF5F1DBCB04F00B175B0 /* SGDatePickerCenterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 96B1EF511DBCB04F00B175B0 /* SGDatePickerCenterView.m */; };
+		96B1EF601DBCB04F00B175B0 /* SGDatePickerCenterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96B1EF521DBCB04F00B175B0 /* SGDatePickerCenterView.xib */; };
+		96B1EF611DBCB04F00B175B0 /* SGDatePickerSheetView.m in Sources */ = {isa = PBXBuildFile; fileRef = 96B1EF541DBCB04F00B175B0 /* SGDatePickerSheetView.m */; };
+		96B1EF621DBCB04F00B175B0 /* SGDatePickerSheetView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96B1EF551DBCB04F00B175B0 /* SGDatePickerSheetView.xib */; };
+		96B1EF631DBCB04F00B175B0 /* SGLocationPickerCenterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 96B1EF571DBCB04F00B175B0 /* SGLocationPickerCenterView.m */; };
+		96B1EF641DBCB04F00B175B0 /* SGLocationPickerCenterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96B1EF581DBCB04F00B175B0 /* SGLocationPickerCenterView.xib */; };
+		96B1EF651DBCB04F00B175B0 /* SGLocationPickerSheetView.m in Sources */ = {isa = PBXBuildFile; fileRef = 96B1EF5A1DBCB04F00B175B0 /* SGLocationPickerSheetView.m */; };
+		96B1EF661DBCB04F00B175B0 /* SGLocationPickerSheetView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96B1EF5B1DBCB04F00B175B0 /* SGLocationPickerSheetView.xib */; };
+		96B1EF671DBCB04F00B175B0 /* Address.plist in Resources */ = {isa = PBXBuildFile; fileRef = 96B1EF5C1DBCB04F00B175B0 /* Address.plist */; };
 		96D072B41D9A146F0064F92E /* GradientProgressController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96D072AA1D9A146F0064F92E /* GradientProgressController.m */; };
 		96D072B51D9A146F0064F92E /* WGradientProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = 96D072AC1D9A146F0064F92E /* WGradientProgress.m */; };
 		96D072B61D9A146F0064F92E /* WJTouchID.m in Sources */ = {isa = PBXBuildFile; fileRef = 96D072B01D9A146F0064F92E /* WJTouchID.m */; };
@@ -303,6 +317,29 @@
 		96B1EF381DBC5D0700B175B0 /* DXPopover.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DXPopover.m; sourceTree = "<group>"; };
 		96B1EF3A1DBC5D2300B175B0 /* PopArrowTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopArrowTable.h; sourceTree = "<group>"; };
 		96B1EF3B1DBC5D2300B175B0 /* PopArrowTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopArrowTable.m; sourceTree = "<group>"; };
+		96B1EF431DBCB03E00B175B0 /* SGActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGActionSheet.h; sourceTree = "<group>"; };
+		96B1EF441DBCB03E00B175B0 /* SGActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGActionSheet.m; sourceTree = "<group>"; };
+		96B1EF451DBCB03E00B175B0 /* SGActionSheetCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGActionSheetCell.h; sourceTree = "<group>"; };
+		96B1EF461DBCB03E00B175B0 /* SGActionSheetCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGActionSheetCell.m; sourceTree = "<group>"; };
+		96B1EF471DBCB03E00B175B0 /* SGAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGAlertView.h; sourceTree = "<group>"; };
+		96B1EF481DBCB03E00B175B0 /* SGAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGAlertView.m; sourceTree = "<group>"; };
+		96B1EF4C1DBCB04F00B175B0 /* SGPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGPickerView.h; sourceTree = "<group>"; };
+		96B1EF4D1DBCB04F00B175B0 /* SGPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGPickerView.m; sourceTree = "<group>"; };
+		96B1EF4E1DBCB04F00B175B0 /* SGDatePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGDatePicker.h; sourceTree = "<group>"; };
+		96B1EF4F1DBCB04F00B175B0 /* SGDatePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGDatePicker.m; sourceTree = "<group>"; };
+		96B1EF501DBCB04F00B175B0 /* SGDatePickerCenterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGDatePickerCenterView.h; sourceTree = "<group>"; };
+		96B1EF511DBCB04F00B175B0 /* SGDatePickerCenterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGDatePickerCenterView.m; sourceTree = "<group>"; };
+		96B1EF521DBCB04F00B175B0 /* SGDatePickerCenterView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SGDatePickerCenterView.xib; sourceTree = "<group>"; };
+		96B1EF531DBCB04F00B175B0 /* SGDatePickerSheetView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGDatePickerSheetView.h; sourceTree = "<group>"; };
+		96B1EF541DBCB04F00B175B0 /* SGDatePickerSheetView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGDatePickerSheetView.m; sourceTree = "<group>"; };
+		96B1EF551DBCB04F00B175B0 /* SGDatePickerSheetView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SGDatePickerSheetView.xib; sourceTree = "<group>"; };
+		96B1EF561DBCB04F00B175B0 /* SGLocationPickerCenterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGLocationPickerCenterView.h; sourceTree = "<group>"; };
+		96B1EF571DBCB04F00B175B0 /* SGLocationPickerCenterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGLocationPickerCenterView.m; sourceTree = "<group>"; };
+		96B1EF581DBCB04F00B175B0 /* SGLocationPickerCenterView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SGLocationPickerCenterView.xib; sourceTree = "<group>"; };
+		96B1EF591DBCB04F00B175B0 /* SGLocationPickerSheetView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGLocationPickerSheetView.h; sourceTree = "<group>"; };
+		96B1EF5A1DBCB04F00B175B0 /* SGLocationPickerSheetView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGLocationPickerSheetView.m; sourceTree = "<group>"; };
+		96B1EF5B1DBCB04F00B175B0 /* SGLocationPickerSheetView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SGLocationPickerSheetView.xib; sourceTree = "<group>"; };
+		96B1EF5C1DBCB04F00B175B0 /* Address.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Address.plist; sourceTree = "<group>"; };
 		96D072A91D9A146F0064F92E /* GradientProgressController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GradientProgressController.h; sourceTree = "<group>"; };
 		96D072AA1D9A146F0064F92E /* GradientProgressController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GradientProgressController.m; sourceTree = "<group>"; };
 		96D072AB1D9A146F0064F92E /* WGradientProgress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGradientProgress.h; sourceTree = "<group>"; };
@@ -764,6 +801,7 @@
 		968385FD1D92A84000ED04F7 /* OtherProject */ = {
 			isa = PBXGroup;
 			children = (
+				96B1EF401DBCB02D00B175B0 /* ActionSheet_PickerView_AlertView */,
 				96B1EF361DBC5CEA00B175B0 /* 有箭头的弹框 */,
 				96B1EF2A1DBB7A5C00B175B0 /* mp4启动图 */,
 				96D073581D9BB59F0064F92E /* 新浪弹框动画 */,
@@ -795,6 +833,53 @@
 				96B1EF3B1DBC5D2300B175B0 /* PopArrowTable.m */,
 			);
 			path = "有箭头的弹框";
+			sourceTree = "<group>";
+		};
+		96B1EF401DBCB02D00B175B0 /* ActionSheet_PickerView_AlertView */ = {
+			isa = PBXGroup;
+			children = (
+				96B1EF411DBCB02D00B175B0 /* ActionSheet */,
+				96B1EF421DBCB02D00B175B0 /* PickerView */,
+			);
+			name = ActionSheet_PickerView_AlertView;
+			path = "UIAlertView弹框/ActionSheet_PickerView_AlertView";
+			sourceTree = "<group>";
+		};
+		96B1EF411DBCB02D00B175B0 /* ActionSheet */ = {
+			isa = PBXGroup;
+			children = (
+				96B1EF431DBCB03E00B175B0 /* SGActionSheet.h */,
+				96B1EF441DBCB03E00B175B0 /* SGActionSheet.m */,
+				96B1EF451DBCB03E00B175B0 /* SGActionSheetCell.h */,
+				96B1EF461DBCB03E00B175B0 /* SGActionSheetCell.m */,
+				96B1EF471DBCB03E00B175B0 /* SGAlertView.h */,
+				96B1EF481DBCB03E00B175B0 /* SGAlertView.m */,
+			);
+			path = ActionSheet;
+			sourceTree = "<group>";
+		};
+		96B1EF421DBCB02D00B175B0 /* PickerView */ = {
+			isa = PBXGroup;
+			children = (
+				96B1EF4C1DBCB04F00B175B0 /* SGPickerView.h */,
+				96B1EF4D1DBCB04F00B175B0 /* SGPickerView.m */,
+				96B1EF4E1DBCB04F00B175B0 /* SGDatePicker.h */,
+				96B1EF4F1DBCB04F00B175B0 /* SGDatePicker.m */,
+				96B1EF501DBCB04F00B175B0 /* SGDatePickerCenterView.h */,
+				96B1EF511DBCB04F00B175B0 /* SGDatePickerCenterView.m */,
+				96B1EF521DBCB04F00B175B0 /* SGDatePickerCenterView.xib */,
+				96B1EF531DBCB04F00B175B0 /* SGDatePickerSheetView.h */,
+				96B1EF541DBCB04F00B175B0 /* SGDatePickerSheetView.m */,
+				96B1EF551DBCB04F00B175B0 /* SGDatePickerSheetView.xib */,
+				96B1EF561DBCB04F00B175B0 /* SGLocationPickerCenterView.h */,
+				96B1EF571DBCB04F00B175B0 /* SGLocationPickerCenterView.m */,
+				96B1EF581DBCB04F00B175B0 /* SGLocationPickerCenterView.xib */,
+				96B1EF591DBCB04F00B175B0 /* SGLocationPickerSheetView.h */,
+				96B1EF5A1DBCB04F00B175B0 /* SGLocationPickerSheetView.m */,
+				96B1EF5B1DBCB04F00B175B0 /* SGLocationPickerSheetView.xib */,
+				96B1EF5C1DBCB04F00B175B0 /* Address.plist */,
+			);
+			path = PickerView;
 			sourceTree = "<group>";
 		};
 		96D072A71D9A146F0064F92E /* 文字绘写 */ = {
@@ -1049,15 +1134,20 @@
 				9683849D1D91360200ED04F7 /* LaunchScreen.storyboard in Resources */,
 				96D072CD1D9A21CB0064F92E /* exclamation-icon.png in Resources */,
 				968385571D9260C500ED04F7 /* Localizable.strings in Resources */,
+				96B1EF671DBCB04F00B175B0 /* Address.plist in Resources */,
 				968385641D9289D000ED04F7 /* 2016-09-21.gif in Resources */,
 				9683849A1D91360200ED04F7 /* Assets.xcassets in Resources */,
 				96D0737B1D9BB5F30064F92E /* images.bundle in Resources */,
 				968385181D9142E000ED04F7 /* LICENSE in Resources */,
 				968384981D91360200ED04F7 /* Main.storyboard in Resources */,
 				96D0737C1D9BB5F30064F92E /* music.bundle in Resources */,
+				96B1EF601DBCB04F00B175B0 /* SGDatePickerCenterView.xib in Resources */,
 				96D072CB1D9A1B650064F92E /* ContentView.xib in Resources */,
+				96B1EF661DBCB04F00B175B0 /* SGLocationPickerSheetView.xib in Resources */,
 				96B1EF2F1DBB7A7400B175B0 /* qidong.mp4 in Resources */,
+				96B1EF641DBCB04F00B175B0 /* SGLocationPickerCenterView.xib in Resources */,
 				96FDB7131DB8E668009F7054 /* Media.xcassets in Resources */,
+				96B1EF621DBCB04F00B175B0 /* SGDatePickerSheetView.xib in Resources */,
 				9683853D1D91435100ED04F7 /* LICENSE in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1091,6 +1181,7 @@
 				968385EB1D92A27F00ED04F7 /* DS_BaseViewController.m in Sources */,
 				96D0737A1D9BB5F30064F92E /* BHBPopView.m in Sources */,
 				968385961D928E5A00ED04F7 /* UINavigationBar+Addition.m in Sources */,
+				96B1EF5D1DBCB04F00B175B0 /* SGPickerView.m in Sources */,
 				9683859E1D928E5A00ED04F7 /* UIViewController+Loading.m in Sources */,
 				96D072B41D9A146F0064F92E /* GradientProgressController.m in Sources */,
 				96D072C21D9A188C0064F92E /* UIScrollView+PDHeaderRefreshView.m in Sources */,
@@ -1106,6 +1197,7 @@
 				96D0737E1D9BB5F30064F92E /* UIImage+BHBEffects.m in Sources */,
 				968385FB1D92A55000ED04F7 /* BaseViewController.m in Sources */,
 				968385951D928E5A00ED04F7 /* UIImageView+LBBlurredImage.m in Sources */,
+				96B1EF491DBCB03E00B175B0 /* SGActionSheet.m in Sources */,
 				968385F91D92A55000ED04F7 /* BaseTabBar.m in Sources */,
 				968385DB1D92918100ED04F7 /* NSString+Addition.m in Sources */,
 				968385DE1D92918100ED04F7 /* NSString+Size.m in Sources */,
@@ -1113,16 +1205,20 @@
 				968385461D91435100ED04F7 /* NSObject+MJProperty.m in Sources */,
 				968385401D91435100ED04F7 /* MJProperty.m in Sources */,
 				968385421D91435100ED04F7 /* MJPropertyType.m in Sources */,
+				96B1EF4A1DBCB03E00B175B0 /* SGActionSheetCell.m in Sources */,
 				9683853E1D91435100ED04F7 /* MJExtensionConst.m in Sources */,
 				96D072B51D9A146F0064F92E /* WGradientProgress.m in Sources */,
 				968384951D91360200ED04F7 /* ViewController.m in Sources */,
+				96B1EF651DBCB04F00B175B0 /* SGLocationPickerSheetView.m in Sources */,
 				968385431D91435100ED04F7 /* NSObject+MJClass.m in Sources */,
+				96B1EF611DBCB04F00B175B0 /* SGDatePickerSheetView.m in Sources */,
 				968384E71D913E5A00ED04F7 /* ViewController3.m in Sources */,
 				96D073801D9BB5F30064F92E /* UIView+BHBAnimation.m in Sources */,
 				9683853F1D91435100ED04F7 /* MJFoundation.m in Sources */,
 				9683851D1D9142E000ED04F7 /* MASViewAttribute.m in Sources */,
 				968384921D91360200ED04F7 /* AppDelegate.m in Sources */,
 				9683855D1D92648A00ED04F7 /* UIBarButtonItem+WNXBarButtonItem.m in Sources */,
+				96B1EF5E1DBCB04F00B175B0 /* SGDatePicker.m in Sources */,
 				968385EC1D92A27F00ED04F7 /* DS_SearchBarView.m in Sources */,
 				968385DC1D92918100ED04F7 /* NSString+Encrypt.m in Sources */,
 				9683851B1D9142E000ED04F7 /* MASConstraintMaker.m in Sources */,
@@ -1142,6 +1238,7 @@
 				96D073771D9BB5F30064F92E /* BHBGroup.m in Sources */,
 				9683859B1D928E5A00ED04F7 /* UIView+Layer.m in Sources */,
 				96B1EF2D1DBB7A6800B175B0 /* WSMovieController.m in Sources */,
+				96B1EF5F1DBCB04F00B175B0 /* SGDatePickerCenterView.m in Sources */,
 				96D072DB1D9A43990064F92E /* PopoverViewController.m in Sources */,
 				968385901D928E5A00ED04F7 /* UILabel+CountDown.m in Sources */,
 				968385DF1D92918100ED04F7 /* NSString+URL.m in Sources */,
@@ -1177,8 +1274,10 @@
 				96D072C61D9A1B220064F92E /* FDAlertView.m in Sources */,
 				96D073761D9BB5F30064F92E /* BHBCustomBtn.m in Sources */,
 				96D072B71D9A146F0064F92E /* WJViewController.m in Sources */,
+				96B1EF631DBCB04F00B175B0 /* SGLocationPickerCenterView.m in Sources */,
 				968384D81D913B8700ED04F7 /* UIImage+image.m in Sources */,
 				96D072D01D9A22400064F92E /* UIView+Boom.m in Sources */,
+				96B1EF4B1DBCB03E00B175B0 /* SGAlertView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
