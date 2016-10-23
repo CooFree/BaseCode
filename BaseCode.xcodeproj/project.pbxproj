@@ -83,6 +83,10 @@
 		968385FA1D92A55000ED04F7 /* BaseTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 968385F31D92A55000ED04F7 /* BaseTabBarController.m */; };
 		968385FB1D92A55000ED04F7 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 968385F51D92A55000ED04F7 /* BaseViewController.m */; };
 		968385FC1D92A55000ED04F7 /* LeftSlideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 968385F71D92A55000ED04F7 /* LeftSlideViewController.m */; };
+		96B1EF2D1DBB7A6800B175B0 /* WSMovieController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96B1EF2C1DBB7A6800B175B0 /* WSMovieController.m */; };
+		96B1EF2F1DBB7A7400B175B0 /* qidong.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 96B1EF2E1DBB7A7400B175B0 /* qidong.mp4 */; };
+		96B1EF391DBC5D0700B175B0 /* DXPopover.m in Sources */ = {isa = PBXBuildFile; fileRef = 96B1EF381DBC5D0700B175B0 /* DXPopover.m */; };
+		96B1EF3C1DBC5D2300B175B0 /* PopArrowTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 96B1EF3B1DBC5D2300B175B0 /* PopArrowTable.m */; };
 		96D072B41D9A146F0064F92E /* GradientProgressController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96D072AA1D9A146F0064F92E /* GradientProgressController.m */; };
 		96D072B51D9A146F0064F92E /* WGradientProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = 96D072AC1D9A146F0064F92E /* WGradientProgress.m */; };
 		96D072B61D9A146F0064F92E /* WJTouchID.m in Sources */ = {isa = PBXBuildFile; fileRef = 96D072B01D9A146F0064F92E /* WJTouchID.m */; };
@@ -113,6 +117,7 @@
 		96D0737F1D9BB5F30064F92E /* UIImageView+BHBSetImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 96D073711D9BB5F30064F92E /* UIImageView+BHBSetImage.m */; };
 		96D073801D9BB5F30064F92E /* UIView+BHBAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 96D073731D9BB5F30064F92E /* UIView+BHBAnimation.m */; };
 		96FC39C21DB0CE7C002FE5D5 /* UIImage+CFQRcode.m in Sources */ = {isa = PBXBuildFile; fileRef = 96FC39C11DB0CE7C002FE5D5 /* UIImage+CFQRcode.m */; };
+		96FDB7131DB8E668009F7054 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96FDB7121DB8E668009F7054 /* Media.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -291,6 +296,13 @@
 		968385F51D92A55000ED04F7 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
 		968385F61D92A55000ED04F7 /* LeftSlideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftSlideViewController.h; sourceTree = "<group>"; };
 		968385F71D92A55000ED04F7 /* LeftSlideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftSlideViewController.m; sourceTree = "<group>"; };
+		96B1EF2B1DBB7A6800B175B0 /* WSMovieController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSMovieController.h; sourceTree = "<group>"; };
+		96B1EF2C1DBB7A6800B175B0 /* WSMovieController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSMovieController.m; sourceTree = "<group>"; };
+		96B1EF2E1DBB7A7400B175B0 /* qidong.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = qidong.mp4; sourceTree = "<group>"; };
+		96B1EF371DBC5D0700B175B0 /* DXPopover.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DXPopover.h; sourceTree = "<group>"; };
+		96B1EF381DBC5D0700B175B0 /* DXPopover.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DXPopover.m; sourceTree = "<group>"; };
+		96B1EF3A1DBC5D2300B175B0 /* PopArrowTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopArrowTable.h; sourceTree = "<group>"; };
+		96B1EF3B1DBC5D2300B175B0 /* PopArrowTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopArrowTable.m; sourceTree = "<group>"; };
 		96D072A91D9A146F0064F92E /* GradientProgressController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GradientProgressController.h; sourceTree = "<group>"; };
 		96D072AA1D9A146F0064F92E /* GradientProgressController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GradientProgressController.m; sourceTree = "<group>"; };
 		96D072AB1D9A146F0064F92E /* WGradientProgress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGradientProgress.h; sourceTree = "<group>"; };
@@ -349,6 +361,7 @@
 		96D073731D9BB5F30064F92E /* UIView+BHBAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+BHBAnimation.m"; sourceTree = "<group>"; };
 		96FC39C01DB0CE7C002FE5D5 /* UIImage+CFQRcode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+CFQRcode.h"; sourceTree = "<group>"; };
 		96FC39C11DB0CE7C002FE5D5 /* UIImage+CFQRcode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+CFQRcode.m"; sourceTree = "<group>"; };
+		96FDB7121DB8E668009F7054 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -430,6 +443,7 @@
 				96D072C91D9A1B650064F92E /* ContentView.xib */,
 				968384961D91360200ED04F7 /* Main.storyboard */,
 				968384991D91360200ED04F7 /* Assets.xcassets */,
+				96FDB7121DB8E668009F7054 /* Media.xcassets */,
 				9683849B1D91360200ED04F7 /* LaunchScreen.storyboard */,
 				9683848D1D91360200ED04F7 /* Supporting Files */,
 			);
@@ -750,6 +764,8 @@
 		968385FD1D92A84000ED04F7 /* OtherProject */ = {
 			isa = PBXGroup;
 			children = (
+				96B1EF361DBC5CEA00B175B0 /* 有箭头的弹框 */,
+				96B1EF2A1DBB7A5C00B175B0 /* mp4启动图 */,
 				96D073581D9BB59F0064F92E /* 新浪弹框动画 */,
 				96D072D11D9A43990064F92E /* MBTwitterScroll */,
 				96D072A71D9A146F0064F92E /* 文字绘写 */,
@@ -758,6 +774,27 @@
 				96D072B31D9A146F0064F92E /* UIAlertView弹框 */,
 			);
 			path = OtherProject;
+			sourceTree = "<group>";
+		};
+		96B1EF2A1DBB7A5C00B175B0 /* mp4启动图 */ = {
+			isa = PBXGroup;
+			children = (
+				96B1EF2B1DBB7A6800B175B0 /* WSMovieController.h */,
+				96B1EF2C1DBB7A6800B175B0 /* WSMovieController.m */,
+				96B1EF2E1DBB7A7400B175B0 /* qidong.mp4 */,
+			);
+			path = "mp4启动图";
+			sourceTree = "<group>";
+		};
+		96B1EF361DBC5CEA00B175B0 /* 有箭头的弹框 */ = {
+			isa = PBXGroup;
+			children = (
+				96B1EF371DBC5D0700B175B0 /* DXPopover.h */,
+				96B1EF381DBC5D0700B175B0 /* DXPopover.m */,
+				96B1EF3A1DBC5D2300B175B0 /* PopArrowTable.h */,
+				96B1EF3B1DBC5D2300B175B0 /* PopArrowTable.m */,
+			);
+			path = "有箭头的弹框";
 			sourceTree = "<group>";
 		};
 		96D072A71D9A146F0064F92E /* 文字绘写 */ = {
@@ -963,7 +1000,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0800;
-				ORGANIZATIONNAME = YSSJ;
+				ORGANIZATIONNAME = liubin;
 				TargetAttributes = {
 					968384891D91360200ED04F7 = {
 						CreatedOnToolsVersion = 8.0;
@@ -1019,6 +1056,8 @@
 				968384981D91360200ED04F7 /* Main.storyboard in Resources */,
 				96D0737C1D9BB5F30064F92E /* music.bundle in Resources */,
 				96D072CB1D9A1B650064F92E /* ContentView.xib in Resources */,
+				96B1EF2F1DBB7A7400B175B0 /* qidong.mp4 in Resources */,
+				96FDB7131DB8E668009F7054 /* Media.xcassets in Resources */,
 				9683853D1D91435100ED04F7 /* LICENSE in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1046,6 +1085,7 @@
 			files = (
 				968384ED1D913E6700ED04F7 /* ViewController5.m in Sources */,
 				968385E21D92926700ED04F7 /* UIView+Animation.m in Sources */,
+				96B1EF391DBC5D0700B175B0 /* DXPopover.m in Sources */,
 				96D072CA1D9A1B650064F92E /* ContentView.m in Sources */,
 				9683859D1D928E5A00ED04F7 /* UIViewController+Addition.m in Sources */,
 				968385EB1D92A27F00ED04F7 /* DS_BaseViewController.m in Sources */,
@@ -1055,6 +1095,7 @@
 				96D072B41D9A146F0064F92E /* GradientProgressController.m in Sources */,
 				96D072C21D9A188C0064F92E /* UIScrollView+PDHeaderRefreshView.m in Sources */,
 				968385981D928E5A00ED04F7 /* MBProgressHUD+NHAddition.m in Sources */,
+				96B1EF3C1DBC5D2300B175B0 /* PopArrowTable.m in Sources */,
 				968384E41D913E5400ED04F7 /* ViewController2.m in Sources */,
 				968385941D928E5A00ED04F7 /* UIImageView+Addition.m in Sources */,
 				96FC39C21DB0CE7C002FE5D5 /* UIImage+CFQRcode.m in Sources */,
@@ -1100,6 +1141,7 @@
 				96D073791D9BB5F30064F92E /* BHBPlaySoundTool.m in Sources */,
 				96D073771D9BB5F30064F92E /* BHBGroup.m in Sources */,
 				9683859B1D928E5A00ED04F7 /* UIView+Layer.m in Sources */,
+				96B1EF2D1DBB7A6800B175B0 /* WSMovieController.m in Sources */,
 				96D072DB1D9A43990064F92E /* PopoverViewController.m in Sources */,
 				968385901D928E5A00ED04F7 /* UILabel+CountDown.m in Sources */,
 				968385DF1D92918100ED04F7 /* NSString+URL.m in Sources */,

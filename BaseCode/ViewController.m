@@ -16,8 +16,9 @@
 #import "MBTwitterScroll.h"
 #import "PopoverViewController.h"
 #import "BHBPopView.h"
+#import "PopArrowTable.h"
 
-@interface ViewController ()<HJCActionSheetDelegate,UITableViewDataSource,FDAlertViewDelegate,MBTwitterScrollDelegate,UITableViewDelegate>
+@interface ViewController ()<PopArrowTableDelegate,HJCActionSheetDelegate,UITableViewDataSource,FDAlertViewDelegate,MBTwitterScrollDelegate,UITableViewDelegate>
 
 @property (nonatomic, strong) UITableView *tableView;
 
@@ -54,6 +55,9 @@
             break;
         case 6:
             [self POPAnimation];
+            break;
+        case 7:
+            [self popArrowTable];
             break;
         default:
             break;
@@ -340,6 +344,29 @@
     //    }];
 
 }
+
+#pragma mark - 带箭头弹框
+- (void)popArrowTable {
+    
+    UIButton *downBtn = [UIButton buttonWithType:UIButtonTypeCustom];
+    [downBtn setTitle:@"world" forState:UIControlStateNormal];
+    downBtn.frame = CGRectMake(10, 400, 100, 100);
+    [self.view addSubview:downBtn];
+    [downBtn addTarget:self
+                     action:@selector(showTable:)
+           forControlEvents:UIControlEventTouchUpInside];
+    [downBtn setBackgroundColor:[UIColor purpleColor]];
+}
+- (void)showTable:(UIButton *)btn {
+    PopArrowTable *view=[PopArrowTable new];
+    view.delegate=self;
+    [view showAtPointView:btn];
+}
+#pragma mark -- PopArrowTableDelegate
+- (void)PopArrowTable:(PopArrowTable *)PopArrowTable didSelectRowAtIndexPath:(NSInteger)indexPath {
+    NSLog(@"%ld", indexPath);
+}
+
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.

@@ -17,6 +17,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    UIImageView *view = [[UIImageView alloc]initWithImage:[UIImage imageNamed:@"31_2"]];
+    view.frame=CGRectMake(0, 65, 80, 80);
+    [self.view addSubview:view];
 }
 
 - (void)didReceiveMemoryWarning {
