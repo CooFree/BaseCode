@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		96496D141DCB24100063B8DC /* BaseCollectionVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 96496D131DCB24100063B8DC /* BaseCollectionVC.m */; };
+		96496D171DCB244D0063B8DC /* WaterFLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 96496D161DCB244D0063B8DC /* WaterFLayout.m */; };
+		96496D1A1DCB2F0E0063B8DC /* CollectionHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 96496D191DCB2F0E0063B8DC /* CollectionHeaderView.m */; };
+		96496D1D1DCB2F640063B8DC /* ReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 96496D1C1DCB2F640063B8DC /* ReusableView.m */; };
 		9683848F1D91360200ED04F7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9683848E1D91360200ED04F7 /* main.m */; };
 		968384921D91360200ED04F7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 968384911D91360200ED04F7 /* AppDelegate.m */; };
 		968384951D91360200ED04F7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 968384941D91360200ED04F7 /* ViewController.m */; };
@@ -152,6 +156,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		96496D121DCB24100063B8DC /* BaseCollectionVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseCollectionVC.h; sourceTree = "<group>"; };
+		96496D131DCB24100063B8DC /* BaseCollectionVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseCollectionVC.m; sourceTree = "<group>"; };
+		96496D151DCB244D0063B8DC /* WaterFLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaterFLayout.h; sourceTree = "<group>"; };
+		96496D161DCB244D0063B8DC /* WaterFLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaterFLayout.m; sourceTree = "<group>"; };
+		96496D181DCB2F0E0063B8DC /* CollectionHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionHeaderView.h; sourceTree = "<group>"; };
+		96496D191DCB2F0E0063B8DC /* CollectionHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionHeaderView.m; sourceTree = "<group>"; };
+		96496D1B1DCB2F640063B8DC /* ReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReusableView.h; sourceTree = "<group>"; };
+		96496D1C1DCB2F640063B8DC /* ReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReusableView.m; sourceTree = "<group>"; };
 		9683848A1D91360200ED04F7 /* BaseCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BaseCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9683848E1D91360200ED04F7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		968384901D91360200ED04F7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -773,10 +785,18 @@
 			children = (
 				968385E41D92A27F00ED04F7 /* DS_BaseTableViewController.h */,
 				968385E51D92A27F00ED04F7 /* DS_BaseTableViewController.m */,
+				96496D121DCB24100063B8DC /* BaseCollectionVC.h */,
+				96496D131DCB24100063B8DC /* BaseCollectionVC.m */,
 				968385E61D92A27F00ED04F7 /* DS_BaseViewController.h */,
 				968385E71D92A27F00ED04F7 /* DS_BaseViewController.m */,
 				968385E81D92A27F00ED04F7 /* DS_SearchBarView.h */,
 				968385E91D92A27F00ED04F7 /* DS_SearchBarView.m */,
+				96496D151DCB244D0063B8DC /* WaterFLayout.h */,
+				96496D161DCB244D0063B8DC /* WaterFLayout.m */,
+				96496D181DCB2F0E0063B8DC /* CollectionHeaderView.h */,
+				96496D191DCB2F0E0063B8DC /* CollectionHeaderView.m */,
+				96496D1B1DCB2F640063B8DC /* ReusableView.h */,
+				96496D1C1DCB2F640063B8DC /* ReusableView.m */,
 			);
 			path = TableView;
 			sourceTree = "<group>";
@@ -1183,6 +1203,7 @@
 				968385961D928E5A00ED04F7 /* UINavigationBar+Addition.m in Sources */,
 				96B1EF5D1DBCB04F00B175B0 /* SGPickerView.m in Sources */,
 				9683859E1D928E5A00ED04F7 /* UIViewController+Loading.m in Sources */,
+				96496D1D1DCB2F640063B8DC /* ReusableView.m in Sources */,
 				96D072B41D9A146F0064F92E /* GradientProgressController.m in Sources */,
 				96D072C21D9A188C0064F92E /* UIScrollView+PDHeaderRefreshView.m in Sources */,
 				968385981D928E5A00ED04F7 /* MBProgressHUD+NHAddition.m in Sources */,
@@ -1210,6 +1231,7 @@
 				96D072B51D9A146F0064F92E /* WGradientProgress.m in Sources */,
 				968384951D91360200ED04F7 /* ViewController.m in Sources */,
 				96B1EF651DBCB04F00B175B0 /* SGLocationPickerSheetView.m in Sources */,
+				96496D1A1DCB2F0E0063B8DC /* CollectionHeaderView.m in Sources */,
 				968385431D91435100ED04F7 /* NSObject+MJClass.m in Sources */,
 				96B1EF611DBCB04F00B175B0 /* SGDatePickerSheetView.m in Sources */,
 				968384E71D913E5A00ED04F7 /* ViewController3.m in Sources */,
@@ -1232,6 +1254,7 @@
 				968385DA1D92918100ED04F7 /* NSAttributedString+Size.m in Sources */,
 				96D072D91D9A43990064F92E /* MBTwitterScroll.m in Sources */,
 				968385481D91435100ED04F7 /* README.md in Sources */,
+				96496D141DCB24100063B8DC /* BaseCollectionVC.m in Sources */,
 				9683848F1D91360200ED04F7 /* main.m in Sources */,
 				968385411D91435100ED04F7 /* MJPropertyKey.m in Sources */,
 				96D073791D9BB5F30064F92E /* BHBPlaySoundTool.m in Sources */,
@@ -1271,6 +1294,7 @@
 				968385441D91435100ED04F7 /* NSObject+MJCoding.m in Sources */,
 				968384C31D91367A00ED04F7 /* RootTool.m in Sources */,
 				968384DB1D913C0000ED04F7 /* UIView+Frame.m in Sources */,
+				96496D171DCB244D0063B8DC /* WaterFLayout.m in Sources */,
 				96D072C61D9A1B220064F92E /* FDAlertView.m in Sources */,
 				96D073761D9BB5F30064F92E /* BHBCustomBtn.m in Sources */,
 				96D072B71D9A146F0064F92E /* WJViewController.m in Sources */,

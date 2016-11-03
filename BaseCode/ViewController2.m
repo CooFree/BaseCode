@@ -11,6 +11,8 @@
 
 #import "ViewController.h"
 
+#import "BaseCollectionVC.h"
+
 @interface ViewController2 ()<UITableViewDelegate,UITableViewDataSource>
 {
     NSArray *textArr;
@@ -33,7 +35,7 @@
     [self.view addSubview:table];
     
     textArr=@[@"顶部 GradientProgress",@"ActionSheetView",@"文字绘写-写文字",
-              @"文字绘写-刷新文字",@"AlertView",@"MBTwitterScroll",@"新浪弹框动画",@"带箭头弹框"];
+              @"文字绘写-刷新文字",@"AlertView",@"MBTwitterScroll",@"新浪弹框动画",@"带箭头弹框",@""];
     
 }
 - (CGFloat)headerHeight
@@ -65,7 +67,13 @@
             [self.navigationController pushViewController:view animated:YES];
         }
             break;
-            
+        case 8:
+        {
+            BaseCollectionVC *view=[BaseCollectionVC new];
+            view.dataArray=(NSMutableArray *)@[@"",@"",@"",@"",@""];
+            [self.navigationController pushViewController:view animated:YES];
+        }
+            break;
         default:
         {
             ViewController *view = [[ViewController alloc]init];
