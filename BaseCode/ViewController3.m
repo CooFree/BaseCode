@@ -21,6 +21,15 @@
     UIImageView *view = [[UIImageView alloc]initWithImage:[UIImage imageNamed:@"31_2"]];
     view.frame=CGRectMake(0, 65, 80, 80);
     [self.view addSubview:view];
+    
+    UIScrollView *scro=[[UIScrollView alloc]initWithFrame:self.view.bounds];
+    [self.view addSubview:scro];
+    
+    for (int i=0; i<6; i++) {
+        UITextField *textField=[[UITextField alloc]initWithFrame:CGRectMake(10, 200+i*90, 200, 80)];
+        textField.borderStyle=UITextBorderStyleRoundedRect;
+        [scro addSubview:textField];
+    }
 }
 
 - (void)didReceiveMemoryWarning {

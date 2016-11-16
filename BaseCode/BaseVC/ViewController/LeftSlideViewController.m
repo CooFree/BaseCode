@@ -89,10 +89,10 @@
 
 //滑动手势
 - (void) handlePan: (UIPanGestureRecognizer *)rec{
-    
+ 
     CGPoint point = [rec translationInView:self.view];
     _scalef = (point.x * self.speedf + _scalef);
-
+//    NSLog(@"%f",_scalef);
     BOOL needMoveWithTap = YES;  //是否还需要跟随手指移动
     if (((self.mainVC.view.x <= 0) && (_scalef <= 0)) || ((self.mainVC.view.x >= (kScreenWidth - kMainPageDistance )) && (_scalef >= 0)))
     {
@@ -100,7 +100,8 @@
         _scalef = 0;
         needMoveWithTap = NO;
     }
-    
+   
+
     //根据视图位置判断是左滑还是右边滑动
     if (needMoveWithTap && (rec.view.frame.origin.x >= 0) && (rec.view.frame.origin.x <= (kScreenWidth - kMainPageDistance)))
     {
@@ -121,7 +122,7 @@
         
         CGFloat leftTabCenterX = kLeftCenterX + ((kScreenWidth - kMainPageDistance) * 0.5 - kLeftCenterX) * (rec.view.frame.origin.x / (kScreenWidth - kMainPageDistance));
 
-        NSLog(@"%f",leftTabCenterX);
+//        NSLog(@"%f",leftTabCenterX);
         
         
         //leftScale kLeftScale~1.0
@@ -277,9 +278,17 @@
 {
     [self.pan setEnabled:enabled];
 }
+static CGFloat const LeftMarginGesture = 45.0f;
 
+- (BOOL)gestureRecognizerShouldBegin:(UIGestureRecognizer *)gestureRecognizer {
+    CGPoint point = [gestureRecognizer locationInView:gestureRecognizer.view];
+    if (point.x <= LeftMarginGesture||!self.closed) {
+        return YES;
+    }
+    return NO;
+}
 -(BOOL)gestureRecognizer:(UIGestureRecognizer*)gestureRecognizer shouldReceiveTouch:(UITouch*)touch {
-    
+
     if(touch.view.tag == vDeckCanNotPanViewTag)
     {
 //        NSLog(@"不响应侧滑");

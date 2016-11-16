@@ -17,8 +17,8 @@
 #define vSpeedFloat   0.7    //滑动速度
 
 #define kLeftAlpha 0.9  //左侧蒙版的最大值
-#define kLeftCenterX 30 //左侧初始偏移量
-//#define kLeftCenterX kScreenWidth/2 //左侧初始偏移量
+//#define kLeftCenterX 30 //左侧初始偏移量
+#define kLeftCenterX kScreenWidth/2 //左侧初始偏移量
 
 #define kLeftScale 0.7 //左侧初始缩放比例
 

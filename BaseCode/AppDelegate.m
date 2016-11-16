@@ -9,6 +9,8 @@
 #import "AppDelegate.h"
 #import "RootTool.h"
 
+#import "IQKeyboardManager.h"
+
 @interface AppDelegate ()
 
 @end
@@ -26,9 +28,22 @@
     
     [self.window makeKeyAndVisible];
     
+    
+    //键盘统一收回处理
+    [self configureBoardManager];
+    
     return YES;
 }
-
+#pragma mark 键盘收回管理
+-(void)configureBoardManager
+{
+    IQKeyboardManager *manager = [IQKeyboardManager sharedManager];
+    manager.enable = YES;
+    manager.shouldResignOnTouchOutside = YES;
+    manager.shouldToolbarUsesTextFieldTintColor = YES;
+    manager.keyboardDistanceFromTextField=60;
+    manager.enableAutoToolbar = NO;
+}
 
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
