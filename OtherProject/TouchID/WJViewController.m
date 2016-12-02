@@ -11,20 +11,56 @@
 #import "WJViewController.h"
 #import "WJTouchID.h"
 //#import "WJAppDelegate.h"
+#import "RYTLoginManager.h"
+#import "UserMyModel.h"
+#import "RootTool.h"
+#import "AppDelegate.h"
 
 @interface WJViewController ()<WJTouchIDDelegate>
-@property (weak, nonatomic) IBOutlet UILabel *notice;
+@property (strong, nonatomic) UILabel *notice;
+@property (strong, nonatomic) UIButton *touchBtn;
+
 @end
 
 @implementation WJViewController
 
+- (UIButton *)touchBtn {
+    if (_touchBtn==nil) {
+        _touchBtn=[UIButton buttonWithType:UIButtonTypeCustom];
+        _touchBtn.frame=CGRectMake(0, 0, 50, 50);
+        _touchBtn.center=self.view.center;
+        [_touchBtn setImage:[UIImage imageNamed:@"touchID"] forState:UIControlStateNormal];
+        [_touchBtn addTarget:self action:@selector(StartWJTouchID) forControlEvents:UIControlEventTouchUpInside];
+    }
+    return _touchBtn;
+}
+- (UILabel *)notice {
+    if (_notice==nil) {
+        _notice=[[UILabel alloc]initWithFrame:CGRectMake(0, 0, 200, 50)];
+        _notice.center=CGPointMake(self.view.center.x, self.touchBtn.frame.origin.y+25);
+        _notice.numberOfLines=2;
+        _notice.textAlignment=NSTextAlignmentCenter;
+    }
+    return _notice;
+}
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    [[WJTouchID touchID] startWJTouchIDWithMessage:WJNotice(@"自定义信息", @"The Custom Message") fallbackTitle:WJNotice(@"按钮标题", @"Fallback Title") delegate:self];
+    [self.view addSubview:self.touchBtn];
+    [self.view addSubview:self.notice];
+    
     
 }
-- (IBAction)StartWJTouchID {
+
+- (void)viewDidAppear:(BOOL)animated {
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(3 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+        if ([UIApplication sharedApplication].keyWindow.subviews.lastObject == self.view) {
+            [self StartWJTouchID];
+        }
+    });
+    
+}
+- (void)StartWJTouchID {
     
     [[WJTouchID touchID] startWJTouchIDWithMessage:WJNotice(@"自定义信息", @"The Custom Message") fallbackTitle:WJNotice(@"按钮标题", @"Fallback Title") delegate:self];
 }
@@ -38,6 +74,12 @@
 //    WJViewController *view=[WJViewController new];
 //    WJAppDelegate *app = (WJAppDelegate *)[UIApplication sharedApplication].delegate;
 //    app.window.rootViewController = view;
+    
+//    UserMyModel *model=[[UserMyModel alloc]init];
+//    model.ID=@"1";
+//    [[RYTLoginManager shareInstance]loginSuccess:model];
+    
+    [(AppDelegate *)[UIApplication sharedApplication].delegate setupTabViewController];
 }
 
 /**

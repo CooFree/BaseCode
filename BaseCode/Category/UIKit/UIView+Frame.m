@@ -35,6 +35,63 @@
     self.frame = frame;
 }
 
+- (void)setOrigin:(CGPoint)origin {
+    CGRect frame = self.frame;
+    frame.origin = origin;
+    self.frame = frame;
+}
+
+- (CGPoint)origin {
+    return self.frame.origin;
+}
+- (CGFloat)top
+{
+    return self.frame.origin.y;
+}
+
+- (void)setTop:(CGFloat)top
+{
+    CGRect frame = self.frame;
+    frame.origin.y = top;
+    self.frame = frame;
+}
+
+- (CGFloat)left
+{
+    return self.frame.origin.x;
+}
+
+- (void)setLeft:(CGFloat)left
+{
+    CGRect frame = self.frame;
+    frame.origin.x = left;
+    self.frame = frame;
+}
+
+
+- (CGFloat)bottom
+{
+    return self.frame.size.height + self.frame.origin.y;
+}
+
+- (void)setBottom:(CGFloat)bottom
+{
+    CGRect frame = self.frame;
+    frame.origin.y = bottom - frame.size.height;
+    self.frame = frame;
+}
+
+- (CGFloat)right
+{
+    return self.frame.size.width + self.frame.origin.x;
+}
+
+- (void)setRight:(CGFloat)right
+{
+    CGRect frame = self.frame;
+    frame.origin.x = right - frame.size.width;
+    self.frame = frame;
+}
 
 - (CGFloat)width {
     return  self.frame.size.width;

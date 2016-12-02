@@ -12,5 +12,6 @@
 @interface RootTool : NSObject
 
 + (UIViewController *)choosRootViewController;
++ (void)setupTabViewController;
 
 @end

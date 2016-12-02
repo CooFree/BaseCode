@@ -13,5 +13,8 @@
 @property (strong, nonatomic) UIWindow *window;
 
 
+- (void)setupTabViewController;
+- (void)setupIntroductoryPage;
+
 @end
 

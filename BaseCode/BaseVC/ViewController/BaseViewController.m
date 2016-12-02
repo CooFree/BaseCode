@@ -9,6 +9,8 @@
 #import "BaseViewController.h"
 #import "LeftSlideViewController.h"
 #import "AppDelegate.h"
+#import "BaseNavController.h"
+#import "BaseTabBarController.h"
 
 #define SYColor(r, g, b, a) [UIColor colorWithRed:r/255. green:g/255. blue:b/255. alpha:a*1.0]
 #define randomColor       SYColor(arc4random()%255, arc4random()%255, arc4random()%255, 1.)
@@ -55,19 +57,48 @@
     [rootVC setPanEnabled:self.navigationController.childViewControllers.count == 1];
 
 }
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+
++ (UIViewController *)presentingVC{
+    UIWindow * window = [[UIApplication sharedApplication] keyWindow];
+    if (window.windowLevel != UIWindowLevelNormal)
+    {
+        NSArray *windows = [[UIApplication sharedApplication] windows];
+        for(UIWindow * tmpWin in windows)
+        {
+            if (tmpWin.windowLevel == UIWindowLevelNormal)
+            {
+                window = tmpWin;
+                break;
+            }
+        }
+    }
+    UIViewController *result = window.rootViewController;
+    while (result.presentedViewController) {
+        result = result.presentedViewController;
+    }
+    if ([result isKindOfClass:[LeftSlideViewController class]]) {
+        result = [(LeftSlideViewController *)result mainVC];
+    }
+    if ([result isKindOfClass:[BaseTabBarController class]]) {
+        result = [(BaseTabBarController *)result selectedViewController];
+    }
+    if ([result isKindOfClass:[UINavigationController class]]) {
+        result = [(UINavigationController *)result topViewController];
+    }
+    return result;
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
++ (void)presentVC:(UIViewController *)viewController{
+    if (!viewController) {
+        return;
+    }
+    UINavigationController *nav = [[BaseNavController alloc] initWithRootViewController:viewController];
+    if (!viewController.navigationItem.leftBarButtonItem) {
+        viewController.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"关闭" style:UIBarButtonItemStylePlain target:viewController action:@selector(dismissModalViewControllerAnimated:)];
+    }
+    [[self presentingVC] presentViewController:nav animated:YES completion:nil];
 }
-*/
+
+
 
 @end

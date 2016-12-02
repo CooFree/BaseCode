@@ -39,6 +39,13 @@
 		96496D171DCB244D0063B8DC /* WaterFLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 96496D161DCB244D0063B8DC /* WaterFLayout.m */; };
 		96496D1A1DCB2F0E0063B8DC /* CollectionHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 96496D191DCB2F0E0063B8DC /* CollectionHeaderView.m */; };
 		96496D1D1DCB2F640063B8DC /* ReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 96496D1C1DCB2F640063B8DC /* ReusableView.m */; };
+		96719A091DEEB2F3002003B9 /* RYTLoginManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 96719A081DEEB2F3002003B9 /* RYTLoginManager.m */; };
+		96719A0C1DEEB31A002003B9 /* UserMyModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 96719A0B1DEEB31A002003B9 /* UserMyModel.m */; };
+		96719A0F1DEEE00D002003B9 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96719A0E1DEEE00D002003B9 /* LoginViewController.m */; };
+		96719A231DEEED6D002003B9 /* introductoryPagesHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 96719A201DEEED6D002003B9 /* introductoryPagesHelper.m */; };
+		96719A241DEEED6D002003B9 /* introductoryPagesView.m in Sources */ = {isa = PBXBuildFile; fileRef = 96719A221DEEED6D002003B9 /* introductoryPagesView.m */; };
+		96719A2A1DEEF0FA002003B9 /* AdvertiseHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 96719A271DEEF0FA002003B9 /* AdvertiseHelper.m */; };
+		96719A2B1DEEF0FA002003B9 /* AdvertiseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 96719A291DEEF0FA002003B9 /* AdvertiseView.m */; };
 		9683848F1D91360200ED04F7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9683848E1D91360200ED04F7 /* main.m */; };
 		968384921D91360200ED04F7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 968384911D91360200ED04F7 /* AppDelegate.m */; };
 		968384951D91360200ED04F7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 968384941D91360200ED04F7 /* ViewController.m */; };
@@ -94,7 +101,6 @@
 		968385971D928E5A00ED04F7 /* UINavigationItem+NHAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 9683857F1D928E5A00ED04F7 /* UINavigationItem+NHAddition.m */; };
 		968385981D928E5A00ED04F7 /* MBProgressHUD+NHAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 968385821D928E5A00ED04F7 /* MBProgressHUD+NHAddition.m */; };
 		968385991D928E5A00ED04F7 /* UILabel+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 968385841D928E5A00ED04F7 /* UILabel+Addition.m */; };
-		9683859A1D928E5A00ED04F7 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 968385861D928E5A00ED04F7 /* UIView+Frame.m */; };
 		9683859B1D928E5A00ED04F7 /* UIView+Layer.m in Sources */ = {isa = PBXBuildFile; fileRef = 968385881D928E5A00ED04F7 /* UIView+Layer.m */; };
 		9683859C1D928E5A00ED04F7 /* UIView+Tap.m in Sources */ = {isa = PBXBuildFile; fileRef = 9683858A1D928E5A00ED04F7 /* UIView+Tap.m */; };
 		9683859D1D928E5A00ED04F7 /* UIViewController+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 9683858D1D928E5A00ED04F7 /* UIViewController+Addition.m */; };
@@ -249,6 +255,20 @@
 		96496D191DCB2F0E0063B8DC /* CollectionHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionHeaderView.m; sourceTree = "<group>"; };
 		96496D1B1DCB2F640063B8DC /* ReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReusableView.h; sourceTree = "<group>"; };
 		96496D1C1DCB2F640063B8DC /* ReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReusableView.m; sourceTree = "<group>"; };
+		96719A071DEEB2F3002003B9 /* RYTLoginManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYTLoginManager.h; sourceTree = "<group>"; };
+		96719A081DEEB2F3002003B9 /* RYTLoginManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RYTLoginManager.m; sourceTree = "<group>"; };
+		96719A0A1DEEB31A002003B9 /* UserMyModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserMyModel.h; sourceTree = "<group>"; };
+		96719A0B1DEEB31A002003B9 /* UserMyModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserMyModel.m; sourceTree = "<group>"; };
+		96719A0D1DEEE00D002003B9 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		96719A0E1DEEE00D002003B9 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		96719A1F1DEEED6D002003B9 /* introductoryPagesHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = introductoryPagesHelper.h; sourceTree = "<group>"; };
+		96719A201DEEED6D002003B9 /* introductoryPagesHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = introductoryPagesHelper.m; sourceTree = "<group>"; };
+		96719A211DEEED6D002003B9 /* introductoryPagesView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = introductoryPagesView.h; sourceTree = "<group>"; };
+		96719A221DEEED6D002003B9 /* introductoryPagesView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = introductoryPagesView.m; sourceTree = "<group>"; };
+		96719A261DEEF0FA002003B9 /* AdvertiseHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdvertiseHelper.h; sourceTree = "<group>"; };
+		96719A271DEEF0FA002003B9 /* AdvertiseHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdvertiseHelper.m; sourceTree = "<group>"; };
+		96719A281DEEF0FA002003B9 /* AdvertiseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdvertiseView.h; sourceTree = "<group>"; };
+		96719A291DEEF0FA002003B9 /* AdvertiseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdvertiseView.m; sourceTree = "<group>"; };
 		9683848A1D91360200ED04F7 /* BaseCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BaseCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9683848E1D91360200ED04F7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		968384901D91360200ED04F7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -365,8 +385,6 @@
 		968385821D928E5A00ED04F7 /* MBProgressHUD+NHAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+NHAddition.m"; sourceTree = "<group>"; };
 		968385831D928E5A00ED04F7 /* UILabel+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+Addition.h"; sourceTree = "<group>"; };
 		968385841D928E5A00ED04F7 /* UILabel+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Addition.m"; sourceTree = "<group>"; };
-		968385851D928E5A00ED04F7 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
-		968385861D928E5A00ED04F7 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
 		968385871D928E5A00ED04F7 /* UIView+Layer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Layer.h"; sourceTree = "<group>"; };
 		968385881D928E5A00ED04F7 /* UIView+Layer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Layer.m"; sourceTree = "<group>"; };
 		968385891D928E5A00ED04F7 /* UIView+Tap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Tap.h"; sourceTree = "<group>"; };
@@ -688,6 +706,28 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
+		96719A1E1DEEED6D002003B9 /* 引导页 */ = {
+			isa = PBXGroup;
+			children = (
+				96719A1F1DEEED6D002003B9 /* introductoryPagesHelper.h */,
+				96719A201DEEED6D002003B9 /* introductoryPagesHelper.m */,
+				96719A211DEEED6D002003B9 /* introductoryPagesView.h */,
+				96719A221DEEED6D002003B9 /* introductoryPagesView.m */,
+			);
+			path = "引导页";
+			sourceTree = "<group>";
+		};
+		96719A251DEEF0FA002003B9 /* AdvertiseHelper */ = {
+			isa = PBXGroup;
+			children = (
+				96719A261DEEF0FA002003B9 /* AdvertiseHelper.h */,
+				96719A271DEEF0FA002003B9 /* AdvertiseHelper.m */,
+				96719A281DEEF0FA002003B9 /* AdvertiseView.h */,
+				96719A291DEEF0FA002003B9 /* AdvertiseView.m */,
+			);
+			path = AdvertiseHelper;
+			sourceTree = "<group>";
+		};
 		968384811D91360200ED04F7 = {
 			isa = PBXGroup;
 			children = (
@@ -739,6 +779,8 @@
 				968384EC1D913E6700ED04F7 /* ViewController5.m */,
 				968384931D91360200ED04F7 /* ViewController.h */,
 				968384941D91360200ED04F7 /* ViewController.m */,
+				96719A0D1DEEE00D002003B9 /* LoginViewController.h */,
+				96719A0E1DEEE00D002003B9 /* LoginViewController.m */,
 				96D072C71D9A1B650064F92E /* ContentView.h */,
 				96D072C81D9A1B650064F92E /* ContentView.m */,
 				96D072CC1D9A21CB0064F92E /* exclamation-icon.png */,
@@ -781,6 +823,12 @@
 		968384C01D91365A00ED04F7 /* BaseVC */ = {
 			isa = PBXGroup;
 			children = (
+				96719A251DEEF0FA002003B9 /* AdvertiseHelper */,
+				96719A1E1DEEED6D002003B9 /* 引导页 */,
+				96719A071DEEB2F3002003B9 /* RYTLoginManager.h */,
+				96719A081DEEB2F3002003B9 /* RYTLoginManager.m */,
+				96719A0A1DEEB31A002003B9 /* UserMyModel.h */,
+				96719A0B1DEEB31A002003B9 /* UserMyModel.m */,
 				968385ED1D92A55000ED04F7 /* ViewController */,
 				968385E31D92A27F00ED04F7 /* TableView */,
 				968384C11D91367900ED04F7 /* RootTool.h */,
@@ -982,8 +1030,6 @@
 				968385821D928E5A00ED04F7 /* MBProgressHUD+NHAddition.m */,
 				968385831D928E5A00ED04F7 /* UILabel+Addition.h */,
 				968385841D928E5A00ED04F7 /* UILabel+Addition.m */,
-				968385851D928E5A00ED04F7 /* UIView+Frame.h */,
-				968385861D928E5A00ED04F7 /* UIView+Frame.m */,
 				968385871D928E5A00ED04F7 /* UIView+Layer.h */,
 				968385881D928E5A00ED04F7 /* UIView+Layer.m */,
 				968385891D928E5A00ED04F7 /* UIView+Tap.h */,
@@ -1459,6 +1505,7 @@
 				96D0737A1D9BB5F30064F92E /* BHBPopView.m in Sources */,
 				968385961D928E5A00ED04F7 /* UINavigationBar+Addition.m in Sources */,
 				96B1EF5D1DBCB04F00B175B0 /* SGPickerView.m in Sources */,
+				96719A2B1DEEF0FA002003B9 /* AdvertiseView.m in Sources */,
 				9641A39E1DDC12110046FDED /* LICENSE.md in Sources */,
 				9683859E1D928E5A00ED04F7 /* UIViewController+Loading.m in Sources */,
 				96496D1D1DCB2F640063B8DC /* ReusableView.m in Sources */,
@@ -1502,6 +1549,7 @@
 				968384E71D913E5A00ED04F7 /* ViewController3.m in Sources */,
 				9641A3541DDBEB9E0046FDED /* AFURLRequestSerialization.m in Sources */,
 				9641A39B1DDC12110046FDED /* IQToolbar.m in Sources */,
+				96719A2A1DEEF0FA002003B9 /* AdvertiseHelper.m in Sources */,
 				96D073801D9BB5F30064F92E /* UIView+BHBAnimation.m in Sources */,
 				9683853F1D91435100ED04F7 /* MJFoundation.m in Sources */,
 				9683851D1D9142E000ED04F7 /* MASViewAttribute.m in Sources */,
@@ -1512,6 +1560,7 @@
 				968385EC1D92A27F00ED04F7 /* DS_SearchBarView.m in Sources */,
 				968385DC1D92918100ED04F7 /* NSString+Encrypt.m in Sources */,
 				9641A39F1DDC12110046FDED /* README.md in Sources */,
+				96719A0F1DEEE00D002003B9 /* LoginViewController.m in Sources */,
 				9683851B1D9142E000ED04F7 /* MASConstraintMaker.m in Sources */,
 				968385211D9142E000ED04F7 /* View+MASAdditions.m in Sources */,
 				9641A3551DDBEB9E0046FDED /* AFURLResponseSerialization.m in Sources */,
@@ -1533,9 +1582,11 @@
 				96D073771D9BB5F30064F92E /* BHBGroup.m in Sources */,
 				9641A3901DDC12110046FDED /* IQNSArray+Sort.m in Sources */,
 				9641A3621DDBEC8C0046FDED /* CodingNetAPIClient.m in Sources */,
+				96719A091DEEB2F3002003B9 /* RYTLoginManager.m in Sources */,
 				9683859B1D928E5A00ED04F7 /* UIView+Layer.m in Sources */,
 				9641A34E1DDBEB9E0046FDED /* AFHTTPRequestOperationManager.m in Sources */,
 				96B1EF2D1DBB7A6800B175B0 /* WSMovieController.m in Sources */,
+				96719A0C1DEEB31A002003B9 /* UserMyModel.m in Sources */,
 				96B1EF5F1DBCB04F00B175B0 /* SGDatePickerCenterView.m in Sources */,
 				96D072DB1D9A43990064F92E /* PopoverViewController.m in Sources */,
 				968385901D928E5A00ED04F7 /* UILabel+CountDown.m in Sources */,
@@ -1556,7 +1607,6 @@
 				968385FC1D92A55000ED04F7 /* LeftSlideViewController.m in Sources */,
 				968384EA1D913E6000ED04F7 /* ViewController4.m in Sources */,
 				9641A3911DDC12110046FDED /* IQUIScrollView+Additions.m in Sources */,
-				9683859A1D928E5A00ED04F7 /* UIView+Frame.m in Sources */,
 				96D072C11D9A188C0064F92E /* UIScrollView+PDFooterRefreshView.m in Sources */,
 				968385971D928E5A00ED04F7 /* UINavigationItem+NHAddition.m in Sources */,
 				968385991D928E5A00ED04F7 /* UILabel+Addition.m in Sources */,
@@ -1568,6 +1618,7 @@
 				9641A3921DDC12110046FDED /* IQUITextFieldView+Additions.m in Sources */,
 				9641A3991DDC12110046FDED /* IQBarButtonItem.m in Sources */,
 				9683851F1D9142E000ED04F7 /* NSArray+MASAdditions.m in Sources */,
+				96719A241DEEED6D002003B9 /* introductoryPagesView.m in Sources */,
 				968385221D9142E000ED04F7 /* ViewController+MASAdditions.m in Sources */,
 				9641A3931DDC12110046FDED /* IQUIView+Hierarchy.m in Sources */,
 				9683856C1D928E4800ED04F7 /* UIButton+Addition.m in Sources */,
@@ -1584,6 +1635,7 @@
 				96B1EF631DBCB04F00B175B0 /* SGLocationPickerCenterView.m in Sources */,
 				968384D81D913B8700ED04F7 /* UIImage+image.m in Sources */,
 				96D072D01D9A22400064F92E /* UIView+Boom.m in Sources */,
+				96719A231DEEED6D002003B9 /* introductoryPagesHelper.m in Sources */,
 				96B1EF4B1DBCB03E00B175B0 /* SGAlertView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

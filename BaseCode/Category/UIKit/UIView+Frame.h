@@ -24,6 +24,28 @@
 @property(nonatomic, assign) IBInspectable CGFloat cornerRadius;
 
 /**
+ *  顶部
+ */
+@property (nonatomic, assign) CGFloat top;
+/**
+ *  底部
+ */
+@property (nonatomic, assign) CGFloat bottom;
+/**
+ *  左边
+ */
+@property (nonatomic, assign) CGFloat left;
+/**
+ *  右边
+ */
+@property (nonatomic, assign) CGFloat right;
+
+/**
+ *  起点坐标
+ */
+@property (nonatomic, assign) CGPoint origin;
+
+/**
  *  水平居中
  */
 - (void)alignHorizontal;

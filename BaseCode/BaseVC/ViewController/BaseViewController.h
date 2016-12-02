@@ -10,4 +10,7 @@
 
 @interface BaseViewController : UIViewController
 
++ (UIViewController *)presentingVC;
++ (void)presentVC:(UIViewController *)viewController;
+
 @end

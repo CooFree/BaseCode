@@ -11,6 +11,9 @@
 #import "LeftSlideViewController.h"
 #import "ViewController2.h"
 #import "WSMovieController.h"
+#import "WJViewController.h"
+#import "RYTLoginManager.h"
+
 
 @implementation RootTool
 
@@ -24,18 +27,41 @@
         WSMovieController *wsCtrl = [[WSMovieController alloc]init];
         wsCtrl.movieURL = [NSURL fileURLWithPath:[[NSBundle mainBundle]pathForResource:@"qidong"ofType:@"mp4"]];
         return wsCtrl;
-    }else{
+    }else if([RYTLoginManager isLogin]){
+        
+        
+        if ([[NSUserDefaults standardUserDefaults]boolForKey:@"touchID"]) {
+            WJViewController *view=[[WJViewController alloc]init];
+            return view;
+        }
+        
         //不是首次启动
         BaseTabBarController *tabVC = [[BaseTabBarController alloc] init];
         //    UIViewController *leftVC=[[UIViewController alloc]init];
         ViewController2 *leftVC=[[ViewController2 alloc]init];
         LeftSlideViewController *LeftSlideVC= [[LeftSlideViewController alloc] initWithLeftView:leftVC andMainView:tabVC];
             return LeftSlideVC;
+    }else{
+        //不是首次启动
+        BaseTabBarController *tabVC = [[BaseTabBarController alloc] init];
+        //    UIViewController *leftVC=[[UIViewController alloc]init];
+        ViewController2 *leftVC=[[ViewController2 alloc]init];
+        LeftSlideViewController *LeftSlideVC= [[LeftSlideViewController alloc] initWithLeftView:leftVC andMainView:tabVC];
+        return LeftSlideVC;
     }
     
 
     
 
+}
+
++ (void)setupTabViewController{
+    BaseTabBarController *tabVC = [[BaseTabBarController alloc] init];
+    //    UIViewController *leftVC=[[UIViewController alloc]init];
+    ViewController2 *leftVC=[[ViewController2 alloc]init];
+    LeftSlideViewController *LeftSlideVC= [[LeftSlideViewController alloc] initWithLeftView:leftVC andMainView:tabVC];
+    
+    [[[[UIApplication sharedApplication]delegate]window]setRootViewController:LeftSlideVC];
 }
 
 @end

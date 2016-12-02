@@ -71,7 +71,7 @@
 - (void)enterMainAction:(UIButton *)btn {
     NSLog(@"进入应用");
 
-    [[[UIApplication sharedApplication]delegate]window].rootViewController=[RootTool choosRootViewController];
+    [(AppDelegate *)[UIApplication sharedApplication].delegate setupTabViewController];
 
 }
 
