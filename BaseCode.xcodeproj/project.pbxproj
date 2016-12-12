@@ -168,6 +168,7 @@
 		96D0737E1D9BB5F30064F92E /* UIImage+BHBEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 96D0736F1D9BB5F30064F92E /* UIImage+BHBEffects.m */; };
 		96D0737F1D9BB5F30064F92E /* UIImageView+BHBSetImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 96D073711D9BB5F30064F92E /* UIImageView+BHBSetImage.m */; };
 		96D073801D9BB5F30064F92E /* UIView+BHBAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 96D073731D9BB5F30064F92E /* UIView+BHBAnimation.m */; };
+		96D853A51DFE57D8009F7443 /* BAButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 96D853A41DFE57D8009F7443 /* BAButton.m */; };
 		96FC39C21DB0CE7C002FE5D5 /* UIImage+CFQRcode.m in Sources */ = {isa = PBXBuildFile; fileRef = 96FC39C11DB0CE7C002FE5D5 /* UIImage+CFQRcode.m */; };
 		96FDB7131DB8E668009F7054 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96FDB7121DB8E668009F7054 /* Media.xcassets */; };
 /* End PBXBuildFile section */
@@ -511,6 +512,8 @@
 		96D073711D9BB5F30064F92E /* UIImageView+BHBSetImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+BHBSetImage.m"; sourceTree = "<group>"; };
 		96D073721D9BB5F30064F92E /* UIView+BHBAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+BHBAnimation.h"; sourceTree = "<group>"; };
 		96D073731D9BB5F30064F92E /* UIView+BHBAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+BHBAnimation.m"; sourceTree = "<group>"; };
+		96D853A31DFE57D8009F7443 /* BAButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BAButton.h; sourceTree = "<group>"; };
+		96D853A41DFE57D8009F7443 /* BAButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BAButton.m; sourceTree = "<group>"; };
 		96FC39C01DB0CE7C002FE5D5 /* UIImage+CFQRcode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+CFQRcode.h"; sourceTree = "<group>"; };
 		96FC39C11DB0CE7C002FE5D5 /* UIImage+CFQRcode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+CFQRcode.m"; sourceTree = "<group>"; };
 		96FDB7121DB8E668009F7054 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
@@ -1122,6 +1125,7 @@
 		968385FD1D92A84000ED04F7 /* OtherProject */ = {
 			isa = PBXGroup;
 			children = (
+				96D8539F1DFE56E2009F7443 /* BAButton */,
 				96B1EF401DBCB02D00B175B0 /* ActionSheet_PickerView_AlertView */,
 				96B1EF361DBC5CEA00B175B0 /* 有箭头的弹框 */,
 				96B1EF2A1DBB7A5C00B175B0 /* mp4启动图 */,
@@ -1343,6 +1347,15 @@
 			path = Resource;
 			sourceTree = "<group>";
 		};
+		96D8539F1DFE56E2009F7443 /* BAButton */ = {
+			isa = PBXGroup;
+			children = (
+				96D853A31DFE57D8009F7443 /* BAButton.h */,
+				96D853A41DFE57D8009F7443 /* BAButton.m */,
+			);
+			path = BAButton;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1509,6 +1522,7 @@
 				9641A39E1DDC12110046FDED /* LICENSE.md in Sources */,
 				9683859E1D928E5A00ED04F7 /* UIViewController+Loading.m in Sources */,
 				96496D1D1DCB2F640063B8DC /* ReusableView.m in Sources */,
+				96D853A51DFE57D8009F7443 /* BAButton.m in Sources */,
 				96D072B41D9A146F0064F92E /* GradientProgressController.m in Sources */,
 				9641A3981DDC12110046FDED /* IQTextView.m in Sources */,
 				96D072C21D9A188C0064F92E /* UIScrollView+PDHeaderRefreshView.m in Sources */,
