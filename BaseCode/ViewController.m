@@ -57,10 +57,10 @@
         case 6:
             [self POPAnimation];
             break;
-        case 7:
+        case 7: 
             [self popArrowTable];
             break;
-        case 9:
+        case 9: //BAButton
             [self BAButton];
             break;
         default:
