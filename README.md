@@ -10,6 +10,6 @@
 
 
 ### 效果图
-![image](https://github.com/CooFree/CFKit/blob/master/1.gif)
+![image](https://github.com/CooFree/CFKit/blob/master/pics/1.gif)
 
 
